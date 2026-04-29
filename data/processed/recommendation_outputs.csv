@@ -1,0 +1,801 @@
+user_id,rank,product_id,product_category,brand,retrieval_score,ranking_score,product_score,recommendation_reason,category_match,predicted_purchase_probability
+U000035,1,P000023,Grocery,HarvestHill,0.0022,0.0031,0.1432,Recommended because ranking features predict purchase intent,False,0.0031
+U000035,2,P000006,Grocery,HarvestHill,0.002,0.0018,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000035,3,P000011,Home,LumaHome,0.0015,0.0022,0.1406,Recommended because ranking features predict purchase intent,False,0.0022
+U000035,4,P000031,Sports,MotionWorks,0.0019,0.0019,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000035,5,P000014,Sports,Fieldstone,0.0086,0.0017,0.1397,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000035,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000035,7,P000028,Electronics,VoltEdge,0.0021,0.0015,0.1373,Recommended because it matches the user's category affinity,True,0.0015
+U000035,8,P000012,Grocery,NorthPantry,0.0016,0.0018,0.1358,Recommended because ranking features predict purchase intent,False,0.0018
+U000035,9,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because it matches the user's category affinity,True,0.003
+U000035,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because it matches the user's category affinity,True,0.0033
+U000037,1,P000023,Grocery,HarvestHill,0.0007,0.0031,0.1428,Recommended because ranking features predict purchase intent,False,0.0031
+U000037,2,P000006,Grocery,HarvestHill,0.0008,0.0018,0.1421,Recommended because ranking features predict purchase intent,False,0.0018
+U000037,3,P000011,Home,LumaHome,0.0008,0.0022,0.1404,Recommended because ranking features predict purchase intent,False,0.0022
+U000037,4,P000031,Sports,MotionWorks,0.0008,0.0019,0.1399,Recommended because ranking features predict purchase intent,False,0.0019
+U000037,5,P000010,Fashion,LinenLane,0.0007,0.0023,0.1395,Recommended because ranking features predict purchase intent,False,0.0023
+U000037,6,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000037,7,P000028,Electronics,VoltEdge,0.0007,0.0015,0.1369,Recommended because it matches the user's category affinity,True,0.0015
+U000037,8,P000009,Electronics,VoltEdge,0.0007,0.0033,0.1356,Recommended because it matches the user's category affinity,True,0.0033
+U000037,9,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because it matches the user's category affinity,True,0.003
+U000037,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000030,1,P000014,Sports,Fieldstone,0.0335,0.0017,0.1466,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000030,2,P000023,Grocery,HarvestHill,0.0084,0.0031,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000030,3,P000006,Grocery,HarvestHill,0.0079,0.0018,0.1441,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000030,4,P000031,Sports,MotionWorks,0.0076,0.0019,0.1418,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000030,5,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000030,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000030,7,P000028,Electronics,VoltEdge,0.008,0.0015,0.1389,Recommended because it matches the user's category affinity,True,0.0015
+U000030,8,P000012,Grocery,NorthPantry,0.0064,0.0018,0.1371,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000030,9,P000024,Grocery,KindTable,0.0085,0.0018,0.1357,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000030,10,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because it matches the user's category affinity,True,0.003
+U000067,1,P000023,Grocery,HarvestHill,0.0027,0.0031,0.1433,Recommended because ranking features predict purchase intent,False,0.0031
+U000067,2,P000006,Grocery,HarvestHill,0.0025,0.0018,0.1426,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000067,3,P000031,Sports,MotionWorks,0.0024,0.0019,0.1404,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000067,4,P000014,Sports,Fieldstone,0.0108,0.0017,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000067,5,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000067,6,P000010,Fashion,LinenLane,0.0032,0.0023,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000067,7,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because it matches the user's category affinity,True,0.0015
+U000067,8,P000012,Grocery,NorthPantry,0.0021,0.0018,0.1359,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000067,9,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because it matches the user's category affinity,True,0.003
+U000067,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because it matches the user's category affinity,True,0.0033
+U000053,1,P000023,Grocery,HarvestHill,0.0125,0.0031,0.1461,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000053,2,P000006,Grocery,HarvestHill,0.0128,0.0018,0.1455,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000053,3,P000011,Home,LumaHome,0.0138,0.0022,0.1441,Recommended because it matches the user's category affinity,True,0.0022
+U000053,4,P000010,Fashion,LinenLane,0.0118,0.0023,0.1426,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000053,5,P000028,Electronics,VoltEdge,0.0127,0.0015,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000053,6,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000053,7,P000012,Grocery,NorthPantry,0.0135,0.0018,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000053,8,P000018,Electronics,Auralux,0.0122,0.003,0.1389,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000053,9,P000009,Electronics,VoltEdge,0.0122,0.0033,0.1388,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000053,10,P000015,Fashion,Arden,0.0129,0.0017,0.1375,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000023,1,P000023,Grocery,HarvestHill,0.0052,0.0031,0.144,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000023,2,P000006,Grocery,HarvestHill,0.0053,0.0018,0.1434,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000023,3,P000011,Home,LumaHome,0.0057,0.0022,0.1418,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000023,4,P000031,Sports,MotionWorks,0.0053,0.0019,0.1412,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000023,5,P000010,Fashion,LinenLane,0.0049,0.0023,0.1406,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000023,6,P000028,Electronics,VoltEdge,0.0052,0.0015,0.1382,Recommended because it matches the user's category affinity,True,0.0015
+U000023,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000023,8,P000012,Grocery,NorthPantry,0.0056,0.0018,0.1369,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000023,9,P000018,Electronics,Auralux,0.005,0.003,0.1369,Recommended because it matches the user's category affinity,True,0.003
+U000023,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because it matches the user's category affinity,True,0.0033
+U000021,1,P000023,Grocery,HarvestHill,0.0164,0.0031,0.1471,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000021,2,P000006,Grocery,HarvestHill,0.0167,0.0018,0.1466,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000021,3,P000011,Home,LumaHome,0.0181,0.0022,0.1453,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000021,4,P000031,Sports,MotionWorks,0.0169,0.0019,0.1444,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000021,5,P000010,Fashion,LinenLane,0.0154,0.0023,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000021,6,P000012,Grocery,NorthPantry,0.0177,0.0018,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000021,7,P000018,Electronics,Auralux,0.016,0.003,0.1399,Recommended because it matches the user's category affinity,True,0.003
+U000021,8,P000009,Electronics,VoltEdge,0.0159,0.0033,0.1398,Recommended because it matches the user's category affinity,True,0.0033
+U000021,9,P000015,Fashion,Arden,0.0168,0.0017,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000021,10,P000024,Grocery,KindTable,0.0163,0.0018,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000054,1,P000023,Grocery,HarvestHill,0.0053,0.0031,0.144,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000054,2,P000006,Grocery,HarvestHill,0.005,0.0018,0.1433,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000054,3,P000014,Sports,Fieldstone,0.0211,0.0017,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000054,4,P000010,Fashion,LinenLane,0.0062,0.0023,0.141,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000054,5,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000054,6,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000054,7,P000018,Electronics,Auralux,0.0057,0.003,0.137,Recommended because it matches the user's category affinity,True,0.003
+U000054,8,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because it matches the user's category affinity,True,0.0015
+U000054,9,P000012,Grocery,NorthPantry,0.004,0.0018,0.1364,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000054,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because it matches the user's category affinity,True,0.0033
+U000027,1,P000023,Grocery,HarvestHill,0.0101,0.0031,0.1454,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000027,2,P000031,Sports,MotionWorks,0.0113,0.0019,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000027,3,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000027,4,P000010,Fashion,LinenLane,0.008,0.0023,0.1415,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000027,5,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000027,6,P000028,Electronics,VoltEdge,0.0106,0.0015,0.1397,Recommended because it matches the user's category affinity,True,0.0015
+U000027,7,P000012,Grocery,NorthPantry,0.013,0.0018,0.1389,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000027,8,P000009,Electronics,VoltEdge,0.0091,0.0033,0.1379,Recommended because it matches the user's category affinity,True,0.0033
+U000027,9,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000027,10,P000015,Fashion,Arden,0.011,0.0017,0.137,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000066,1,P000023,Grocery,HarvestHill,0.0009,0.0031,0.1428,Recommended because ranking features predict purchase intent,False,0.0031
+U000066,2,P000006,Grocery,HarvestHill,0.0007,0.0018,0.1421,Recommended because ranking features predict purchase intent,False,0.0018
+U000066,3,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000066,4,P000014,Sports,Fieldstone,0.0092,0.0017,0.1398,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000066,5,P000031,Sports,MotionWorks,0.0006,0.0019,0.1398,Recommended because ranking features predict purchase intent,False,0.0019
+U000066,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000066,7,P000028,Electronics,VoltEdge,0.0007,0.0015,0.1369,Recommended because it matches the user's category affinity,True,0.0015
+U000066,8,P000018,Electronics,Auralux,0.0011,0.003,0.1357,Recommended because it matches the user's category affinity,True,0.003
+U000066,9,P000009,Electronics,VoltEdge,0.0011,0.0033,0.1357,Recommended because it matches the user's category affinity,True,0.0033
+U000066,10,P000012,Grocery,NorthPantry,0.0002,0.0018,0.1354,Recommended because ranking features predict purchase intent,False,0.0018
+U000057,1,P000023,Grocery,HarvestHill,0.0042,0.0031,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000057,2,P000006,Grocery,HarvestHill,0.0043,0.0018,0.1431,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000057,3,P000010,Fashion,LinenLane,0.004,0.0023,0.1404,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000057,4,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because it matches the user's category affinity,True,0.0022
+U000057,5,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000057,6,P000028,Electronics,VoltEdge,0.0043,0.0015,0.1379,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000057,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000057,8,P000018,Electronics,Auralux,0.0041,0.003,0.1366,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000057,9,P000012,Grocery,NorthPantry,0.0046,0.0018,0.1366,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000057,10,P000009,Electronics,VoltEdge,0.0041,0.0033,0.1365,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000012,1,P000011,Home,LumaHome,0.0445,0.0022,0.1526,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000012,2,P000031,Sports,MotionWorks,0.0417,0.0019,0.1513,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000012,3,P000010,Fashion,LinenLane,0.038,0.0023,0.1499,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000012,4,P000028,Electronics,VoltEdge,0.041,0.0015,0.1482,Recommended because it matches the user's category affinity,True,0.0015
+U000012,5,P000012,Grocery,NorthPantry,0.0436,0.0018,0.1475,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000012,6,P000009,Electronics,VoltEdge,0.0392,0.0033,0.1463,Recommended because it matches the user's category affinity,True,0.0033
+U000012,7,P000015,Fashion,Arden,0.0414,0.0017,0.1455,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000012,8,P000021,Sports,StrideIQ,0.0416,0.0034,0.1447,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000012,9,P000038,Fashion,Arden,0.0403,0.0031,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000012,10,P000032,Grocery,DailyCrop,0.0393,0.0012,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000071,1,P000023,Grocery,HarvestHill,0.0085,0.0031,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000071,2,P000006,Grocery,HarvestHill,0.0087,0.0018,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000071,3,P000011,Home,LumaHome,0.0094,0.0022,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000071,4,P000031,Sports,MotionWorks,0.0088,0.0019,0.1421,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000071,5,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000071,6,P000028,Electronics,VoltEdge,0.0086,0.0015,0.1391,Recommended because it matches the user's category affinity,True,0.0015
+U000071,7,P000012,Grocery,NorthPantry,0.0092,0.0018,0.1379,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000071,8,P000018,Electronics,Auralux,0.0083,0.003,0.1378,Recommended because it matches the user's category affinity,True,0.003
+U000071,9,P000009,Electronics,VoltEdge,0.0083,0.0033,0.1377,Recommended because it matches the user's category affinity,True,0.0033
+U000071,10,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000011,1,P000023,Grocery,HarvestHill,0.0017,0.0031,0.143,Recommended because ranking features predict purchase intent,False,0.0031
+U000011,2,P000006,Grocery,HarvestHill,0.0017,0.0018,0.1424,Recommended because ranking features predict purchase intent,False,0.0018
+U000011,3,P000011,Home,LumaHome,0.0019,0.0022,0.1407,Recommended because ranking features predict purchase intent,False,0.0022
+U000011,4,P000031,Sports,MotionWorks,0.0018,0.0019,0.1402,Recommended because ranking features predict purchase intent,False,0.0019
+U000011,5,P000010,Fashion,LinenLane,0.0016,0.0023,0.1397,Recommended because ranking features predict purchase intent,False,0.0023
+U000011,6,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000011,7,P000028,Electronics,VoltEdge,0.0017,0.0015,0.1372,Recommended because it matches the user's category affinity,True,0.0015
+U000011,8,P000018,Electronics,Auralux,0.0017,0.003,0.1359,Recommended because it matches the user's category affinity,True,0.003
+U000011,9,P000009,Electronics,VoltEdge,0.0017,0.0033,0.1358,Recommended because it matches the user's category affinity,True,0.0033
+U000011,10,P000012,Grocery,NorthPantry,0.0018,0.0018,0.1358,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000064,1,P000023,Grocery,HarvestHill,0.0213,0.0031,0.1485,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000064,2,P000006,Grocery,HarvestHill,0.0217,0.0018,0.148,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000064,3,P000011,Home,LumaHome,0.0235,0.0022,0.1468,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000064,4,P000031,Sports,MotionWorks,0.022,0.0019,0.1458,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000064,5,P000010,Fashion,LinenLane,0.02,0.0023,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000064,6,P000012,Grocery,NorthPantry,0.023,0.0018,0.1417,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000064,7,P000018,Electronics,Auralux,0.0207,0.003,0.1412,Recommended because it matches the user's category affinity,True,0.003
+U000064,8,P000009,Electronics,VoltEdge,0.0207,0.0033,0.1412,Recommended because it matches the user's category affinity,True,0.0033
+U000064,9,P000015,Fashion,Arden,0.0219,0.0017,0.14,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000064,10,P000024,Grocery,KindTable,0.0212,0.0018,0.1392,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000014,1,P000014,Sports,Fieldstone,0.053,0.0017,0.1521,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000014,2,P000023,Grocery,HarvestHill,0.0133,0.0031,0.1463,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000014,3,P000010,Fashion,LinenLane,0.0156,0.0023,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000014,4,P000031,Sports,MotionWorks,0.012,0.0019,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000014,5,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000014,6,P000028,Electronics,VoltEdge,0.0127,0.0015,0.1402,Recommended because it matches the user's category affinity,True,0.0015
+U000014,7,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000014,8,P000018,Electronics,Auralux,0.0143,0.003,0.1395,Recommended because it matches the user's category affinity,True,0.003
+U000014,9,P000009,Electronics,VoltEdge,0.0144,0.0033,0.1394,Recommended because it matches the user's category affinity,True,0.0033
+U000014,10,P000012,Grocery,NorthPantry,0.0101,0.0018,0.1381,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000034,1,P000023,Grocery,HarvestHill,0.0162,0.0031,0.1471,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000034,2,P000006,Grocery,HarvestHill,0.0165,0.0018,0.1465,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000034,3,P000011,Home,LumaHome,0.0179,0.0022,0.1452,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000034,4,P000031,Sports,MotionWorks,0.0167,0.0019,0.1444,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000034,5,P000010,Fashion,LinenLane,0.0152,0.0023,0.1435,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000034,6,P000028,Electronics,VoltEdge,0.0164,0.0015,0.1413,Recommended because it matches the user's category affinity,True,0.0015
+U000034,7,P000012,Grocery,NorthPantry,0.0175,0.0018,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000034,8,P000015,Fashion,Arden,0.0166,0.0017,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000034,9,P000024,Grocery,KindTable,0.0161,0.0018,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000034,10,P000021,Sports,StrideIQ,0.0167,0.0034,0.1377,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000040,1,P000023,Grocery,HarvestHill,0.0122,0.0031,0.146,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000040,2,P000006,Grocery,HarvestHill,0.0124,0.0018,0.1454,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000040,3,P000011,Home,LumaHome,0.0134,0.0022,0.144,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000040,4,P000031,Sports,MotionWorks,0.0126,0.0019,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000040,5,P000010,Fashion,LinenLane,0.0115,0.0023,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000040,6,P000012,Grocery,NorthPantry,0.0132,0.0018,0.139,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000040,7,P000018,Electronics,Auralux,0.0119,0.003,0.1388,Recommended because it matches the user's category affinity,True,0.003
+U000040,8,P000009,Electronics,VoltEdge,0.0118,0.0033,0.1387,Recommended because it matches the user's category affinity,True,0.0033
+U000040,9,P000015,Fashion,Arden,0.0125,0.0017,0.1374,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000040,10,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000042,1,P000014,Sports,Fieldstone,0.0542,0.0017,0.1524,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000042,2,P000023,Grocery,HarvestHill,0.0136,0.0031,0.1464,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000042,3,P000010,Fashion,LinenLane,0.016,0.0023,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000042,4,P000031,Sports,MotionWorks,0.0122,0.0019,0.1431,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000042,5,P000011,Home,LumaHome,0.0094,0.0022,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000042,6,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000042,7,P000028,Electronics,VoltEdge,0.013,0.0015,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000042,8,P000018,Electronics,Auralux,0.0147,0.003,0.1396,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000042,9,P000009,Electronics,VoltEdge,0.0147,0.0033,0.1395,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000042,10,P000024,Grocery,KindTable,0.0138,0.0018,0.1371,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000016,1,P000014,Sports,Fieldstone,0.0504,0.0017,0.1514,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000016,2,P000023,Grocery,HarvestHill,0.0126,0.0031,0.1461,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000016,3,P000010,Fashion,LinenLane,0.0148,0.0023,0.1434,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000016,4,P000031,Sports,MotionWorks,0.0114,0.0019,0.1429,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000016,5,P000011,Home,LumaHome,0.0088,0.0022,0.1427,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000016,6,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000016,7,P000028,Electronics,VoltEdge,0.012,0.0015,0.1401,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000016,8,P000018,Electronics,Auralux,0.0136,0.003,0.1393,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000016,9,P000009,Electronics,VoltEdge,0.0137,0.0033,0.1392,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000016,10,P000012,Grocery,NorthPantry,0.0096,0.0018,0.138,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000048,1,P000023,Grocery,HarvestHill,0.0042,0.0031,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000048,2,P000006,Grocery,HarvestHill,0.0039,0.0018,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000048,3,P000014,Sports,Fieldstone,0.0167,0.0017,0.1419,Recommended because it matches the user's category affinity,True,0.0017
+U000048,4,P000011,Home,LumaHome,0.0029,0.0022,0.141,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000048,5,P000031,Sports,MotionWorks,0.0038,0.0019,0.1407,Recommended because it matches the user's category affinity,True,0.0019
+U000048,6,P000010,Fashion,LinenLane,0.0049,0.0023,0.1406,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000048,7,P000018,Electronics,Auralux,0.0045,0.003,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000048,8,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because ranking features predict purchase intent,False,0.0015
+U000048,9,P000009,Electronics,VoltEdge,0.0045,0.0033,0.1366,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000048,10,P000012,Grocery,NorthPantry,0.0032,0.0018,0.1362,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000063,1,P000006,Grocery,HarvestHill,0.0138,0.0018,0.1458,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000063,2,P000011,Home,LumaHome,0.0149,0.0022,0.1444,Recommended because it matches the user's category affinity,True,0.0022
+U000063,3,P000031,Sports,MotionWorks,0.014,0.0019,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000063,4,P000010,Fashion,LinenLane,0.0127,0.0023,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000063,5,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000063,6,P000028,Electronics,VoltEdge,0.0137,0.0015,0.1405,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000063,7,P000012,Grocery,NorthPantry,0.0146,0.0018,0.1394,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000063,8,P000018,Electronics,Auralux,0.0132,0.003,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000063,9,P000009,Electronics,VoltEdge,0.0131,0.0033,0.139,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000063,10,P000015,Fashion,Arden,0.0139,0.0017,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000017,1,P000023,Grocery,HarvestHill,0.0063,0.0031,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000017,2,P000014,Sports,Fieldstone,0.0252,0.0017,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000017,3,P000006,Grocery,HarvestHill,0.0059,0.0018,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000017,4,P000010,Fashion,LinenLane,0.0074,0.0023,0.1414,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000017,5,P000031,Sports,MotionWorks,0.0057,0.0019,0.1413,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000017,6,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000017,7,P000028,Electronics,VoltEdge,0.006,0.0015,0.1384,Recommended because it matches the user's category affinity,True,0.0015
+U000017,8,P000009,Electronics,VoltEdge,0.0068,0.0033,0.1373,Recommended because it matches the user's category affinity,True,0.0033
+U000017,9,P000012,Grocery,NorthPantry,0.0048,0.0018,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000017,10,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because it matches the user's category affinity,True,0.003
+U000046,1,P000023,Grocery,HarvestHill,0.0007,0.0031,0.1427,Recommended because ranking features predict purchase intent,False,0.0031
+U000046,2,P000006,Grocery,HarvestHill,0.0006,0.0018,0.1421,Recommended because ranking features predict purchase intent,False,0.0018
+U000046,3,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000046,4,P000031,Sports,MotionWorks,0.0005,0.0019,0.1398,Recommended because ranking features predict purchase intent,False,0.0019
+U000046,5,P000014,Sports,Fieldstone,0.0075,0.0017,0.1393,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000046,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because it matches the user's category affinity,True,0.0023
+U000046,7,P000028,Electronics,VoltEdge,0.0006,0.0015,0.1369,Recommended because ranking features predict purchase intent,False,0.0015
+U000046,8,P000018,Electronics,Auralux,0.0009,0.003,0.1357,Recommended because ranking features predict purchase intent,False,0.003
+U000046,9,P000009,Electronics,VoltEdge,0.0009,0.0033,0.1356,Recommended because ranking features predict purchase intent,False,0.0033
+U000046,10,P000012,Grocery,NorthPantry,0.0001,0.0018,0.1354,Recommended because ranking features predict purchase intent,False,0.0018
+U000024,1,P000023,Grocery,HarvestHill,0.0023,0.0031,0.1432,Recommended because ranking features predict purchase intent,False,0.0031
+U000024,2,P000006,Grocery,HarvestHill,0.0024,0.0018,0.1426,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000024,3,P000031,Sports,MotionWorks,0.0024,0.0019,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000024,4,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because it matches the user's category affinity,True,0.0022
+U000024,5,P000010,Fashion,LinenLane,0.0022,0.0023,0.1399,Recommended because ranking features predict purchase intent,False,0.0023
+U000024,6,P000028,Electronics,VoltEdge,0.0024,0.0015,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000024,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000024,8,P000018,Electronics,Auralux,0.0023,0.003,0.1361,Recommended because ranking features predict purchase intent,False,0.003
+U000024,9,P000012,Grocery,NorthPantry,0.0025,0.0018,0.136,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000024,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because ranking features predict purchase intent,False,0.0033
+U000025,1,P000023,Grocery,HarvestHill,0.0004,0.0031,0.1427,Recommended because ranking features predict purchase intent,False,0.0031
+U000025,2,P000006,Grocery,HarvestHill,0.0004,0.0018,0.142,Recommended because ranking features predict purchase intent,False,0.0018
+U000025,3,P000011,Home,LumaHome,0.0003,0.0022,0.1403,Recommended because ranking features predict purchase intent,False,0.0022
+U000025,4,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because it matches the user's category affinity,True,0.0019
+U000025,5,P000010,Fashion,LinenLane,0.0005,0.0023,0.1394,Recommended because ranking features predict purchase intent,False,0.0023
+U000025,6,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because it matches the user's category affinity,True,0.0017
+U000025,7,P000028,Electronics,VoltEdge,0.0004,0.0015,0.1368,Recommended because ranking features predict purchase intent,False,0.0015
+U000025,8,P000018,Electronics,Auralux,0.0005,0.003,0.1356,Recommended because ranking features predict purchase intent,False,0.003
+U000025,9,P000009,Electronics,VoltEdge,0.0005,0.0033,0.1355,Recommended because ranking features predict purchase intent,False,0.0033
+U000025,10,P000012,Grocery,NorthPantry,0.0003,0.0018,0.1354,Recommended because ranking features predict purchase intent,False,0.0018
+U000077,1,P000014,Sports,Fieldstone,0.0426,0.0017,0.1492,Recommended because it matches the user's category affinity,True,0.0017
+U000077,2,P000006,Grocery,HarvestHill,0.01,0.0018,0.1447,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000077,3,P000010,Fashion,LinenLane,0.0125,0.0023,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000077,4,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000077,5,P000031,Sports,MotionWorks,0.0096,0.0019,0.1424,Recommended because it matches the user's category affinity,True,0.0019
+U000077,6,P000011,Home,LumaHome,0.0074,0.0022,0.1423,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000077,7,P000028,Electronics,VoltEdge,0.0102,0.0015,0.1395,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000077,8,P000018,Electronics,Auralux,0.0115,0.003,0.1387,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000077,9,P000012,Grocery,NorthPantry,0.0081,0.0018,0.1376,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000077,10,P000015,Fashion,Arden,0.0098,0.0017,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000029,1,P000031,Sports,MotionWorks,0.0186,0.0019,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000029,2,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because it matches the user's category affinity,True,0.0031
+U000029,3,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because it matches the user's category affinity,True,0.0018
+U000029,4,P000028,Electronics,VoltEdge,0.0183,0.0015,0.1418,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000029,5,P000012,Grocery,NorthPantry,0.0195,0.0018,0.1408,Recommended because it matches the user's category affinity,True,0.0018
+U000029,6,P000018,Electronics,Auralux,0.0175,0.003,0.1404,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000029,7,P000009,Electronics,VoltEdge,0.0175,0.0033,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000029,8,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000029,9,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000029,10,P000015,Fashion,Arden,0.0185,0.0017,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000051,1,P000014,Sports,Fieldstone,0.0438,0.0017,0.1495,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000051,2,P000023,Grocery,HarvestHill,0.011,0.0031,0.1456,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000051,3,P000006,Grocery,HarvestHill,0.0103,0.0018,0.1448,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000051,4,P000010,Fashion,LinenLane,0.0129,0.0023,0.1429,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000051,5,P000031,Sports,MotionWorks,0.0099,0.0019,0.1424,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000051,6,P000011,Home,LumaHome,0.0076,0.0022,0.1423,Recommended because it matches the user's category affinity,True,0.0022
+U000051,7,P000028,Electronics,VoltEdge,0.0105,0.0015,0.1396,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000051,8,P000018,Electronics,Auralux,0.0118,0.003,0.1388,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000051,9,P000009,Electronics,VoltEdge,0.0119,0.0033,0.1387,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000051,10,P000012,Grocery,NorthPantry,0.0083,0.0018,0.1377,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000068,1,P000023,Grocery,HarvestHill,0.0412,0.0031,0.1541,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000068,2,P000006,Grocery,HarvestHill,0.042,0.0018,0.1537,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000068,3,P000011,Home,LumaHome,0.0454,0.0022,0.1529,Recommended because it matches the user's category affinity,True,0.0022
+U000068,4,P000031,Sports,MotionWorks,0.0426,0.0019,0.1516,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000068,5,P000028,Electronics,VoltEdge,0.0418,0.0015,0.1484,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000068,6,P000012,Grocery,NorthPantry,0.0445,0.0018,0.1478,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000068,7,P000018,Electronics,Auralux,0.0401,0.003,0.1467,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000068,8,P000015,Fashion,Arden,0.0423,0.0017,0.1457,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000068,9,P000021,Sports,StrideIQ,0.0425,0.0034,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000068,10,P000024,Grocery,KindTable,0.041,0.0018,0.1448,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000058,1,P000014,Sports,Fieldstone,0.0256,0.0017,0.1444,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000058,2,P000023,Grocery,HarvestHill,0.0064,0.0031,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000058,3,P000006,Grocery,HarvestHill,0.006,0.0018,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000058,4,P000011,Home,LumaHome,0.0044,0.0022,0.1414,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000058,5,P000031,Sports,MotionWorks,0.0058,0.0019,0.1413,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000058,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because it matches the user's category affinity,True,0.0023
+U000058,7,P000028,Electronics,VoltEdge,0.0061,0.0015,0.1384,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000058,8,P000018,Electronics,Auralux,0.0069,0.003,0.1374,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000058,9,P000009,Electronics,VoltEdge,0.0069,0.0033,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000058,10,P000012,Grocery,NorthPantry,0.0049,0.0018,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000020,1,P000023,Grocery,HarvestHill,0.0218,0.0031,0.1487,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000020,2,P000006,Grocery,HarvestHill,0.0223,0.0018,0.1481,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000020,3,P000011,Home,LumaHome,0.0241,0.0022,0.1469,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000020,4,P000031,Sports,MotionWorks,0.0226,0.0019,0.146,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000020,5,P000010,Fashion,LinenLane,0.0206,0.0023,0.145,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000020,6,P000012,Grocery,NorthPantry,0.0236,0.0018,0.1419,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000020,7,P000024,Grocery,KindTable,0.0217,0.0018,0.1394,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000020,8,P000032,Grocery,DailyCrop,0.0213,0.0012,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000020,9,P000038,Fashion,Arden,0.0218,0.0031,0.1385,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000020,10,P000039,Home,NestForm,0.0224,0.0028,0.1379,Recommended because the two-tower retrieval model found similar behavior,False,0.0028
+U000032,1,P000006,Grocery,HarvestHill,0.0477,0.0018,0.1553,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000032,2,P000011,Home,LumaHome,0.0515,0.0022,0.1546,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000032,3,P000010,Fashion,LinenLane,0.044,0.0023,0.1516,Recommended because it matches the user's category affinity,True,0.0023
+U000032,4,P000028,Electronics,VoltEdge,0.0474,0.0015,0.15,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000032,5,P000012,Grocery,NorthPantry,0.0505,0.0018,0.1494,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000032,6,P000018,Electronics,Auralux,0.0455,0.003,0.1482,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000032,7,P000009,Electronics,VoltEdge,0.0454,0.0033,0.1481,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000032,8,P000015,Fashion,Arden,0.048,0.0017,0.1473,Recommended because it matches the user's category affinity,True,0.0017
+U000032,9,P000021,Sports,StrideIQ,0.0482,0.0034,0.1465,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000032,10,P000024,Grocery,KindTable,0.0465,0.0018,0.1463,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000074,1,P000014,Sports,Fieldstone,0.031,0.0017,0.146,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000074,2,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000074,3,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000074,4,P000010,Fashion,LinenLane,0.0091,0.0023,0.1418,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000074,5,P000011,Home,LumaHome,0.0054,0.0022,0.1417,Recommended because it matches the user's category affinity,True,0.0022
+U000074,6,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000074,7,P000028,Electronics,VoltEdge,0.0074,0.0015,0.1388,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000074,8,P000018,Electronics,Auralux,0.0084,0.003,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000074,9,P000009,Electronics,VoltEdge,0.0084,0.0033,0.1377,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000074,10,P000015,Fashion,Arden,0.0072,0.0017,0.1359,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000036,1,P000031,Sports,MotionWorks,0.0144,0.0019,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000036,2,P000010,Fashion,LinenLane,0.0131,0.0023,0.1429,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000036,3,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000036,4,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000036,5,P000028,Electronics,VoltEdge,0.0141,0.0015,0.1406,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000036,6,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because it matches the user's category affinity,True,0.0022
+U000036,7,P000012,Grocery,NorthPantry,0.015,0.0018,0.1395,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000036,8,P000009,Electronics,VoltEdge,0.0135,0.0033,0.1392,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000036,9,P000015,Fashion,Arden,0.0143,0.0017,0.1379,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000036,10,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000002,1,P000014,Sports,Fieldstone,0.0543,0.0017,0.1525,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000002,2,P000023,Grocery,HarvestHill,0.0136,0.0031,0.1464,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000002,3,P000010,Fashion,LinenLane,0.016,0.0023,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000002,4,P000031,Sports,MotionWorks,0.0123,0.0019,0.1431,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000002,5,P000011,Home,LumaHome,0.0095,0.0022,0.1428,Recommended because it matches the user's category affinity,True,0.0022
+U000002,6,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000002,7,P000028,Electronics,VoltEdge,0.013,0.0015,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000002,8,P000018,Electronics,Auralux,0.0147,0.003,0.1396,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000002,9,P000009,Electronics,VoltEdge,0.0148,0.0033,0.1395,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000002,10,P000012,Grocery,NorthPantry,0.0103,0.0018,0.1382,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000007,1,P000023,Grocery,HarvestHill,0.0186,0.0031,0.1478,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000007,2,P000006,Grocery,HarvestHill,0.019,0.0018,0.1472,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000007,3,P000011,Home,LumaHome,0.0205,0.0022,0.1459,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000007,4,P000031,Sports,MotionWorks,0.0192,0.0019,0.1451,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000007,5,P000028,Electronics,VoltEdge,0.0189,0.0015,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000007,6,P000012,Grocery,NorthPantry,0.0201,0.0018,0.1409,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000007,7,P000018,Electronics,Auralux,0.0181,0.003,0.1405,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000007,8,P000009,Electronics,VoltEdge,0.0181,0.0033,0.1404,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000007,9,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because it matches the user's category affinity,True,0.0023
+U000007,10,P000015,Fashion,Arden,0.0191,0.0017,0.1393,Recommended because it matches the user's category affinity,True,0.0017
+U000043,1,P000014,Sports,Fieldstone,0.0367,0.0017,0.1475,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000043,2,P000023,Grocery,HarvestHill,0.0092,0.0031,0.1451,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000043,3,P000006,Grocery,HarvestHill,0.0086,0.0018,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000043,4,P000010,Fashion,LinenLane,0.0108,0.0023,0.1423,Recommended because it matches the user's category affinity,True,0.0023
+U000043,5,P000031,Sports,MotionWorks,0.0083,0.0019,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000043,6,P000011,Home,LumaHome,0.0064,0.0022,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000043,7,P000028,Electronics,VoltEdge,0.0088,0.0015,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000043,8,P000018,Electronics,Auralux,0.0099,0.003,0.1382,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000043,9,P000009,Electronics,VoltEdge,0.01,0.0033,0.1382,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000043,10,P000012,Grocery,NorthPantry,0.007,0.0018,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000044,1,P000014,Sports,Fieldstone,0.3292,0.0017,0.2294,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000044,2,P000023,Grocery,HarvestHill,0.0306,0.0031,0.1511,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000044,3,P000006,Grocery,HarvestHill,0.0246,0.0018,0.1488,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000044,4,P000034,Home,NestForm,0.1139,0.002,0.1488,Recommended because it matches the user's category affinity,True,0.002
+U000044,5,P000009,Electronics,VoltEdge,0.0389,0.0033,0.1463,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000044,6,P000031,Sports,MotionWorks,0.0207,0.0019,0.1455,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000044,7,P000028,Electronics,VoltEdge,0.026,0.0015,0.144,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000044,8,P000032,Grocery,DailyCrop,0.0381,0.0012,0.1433,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000044,9,P000024,Grocery,KindTable,0.032,0.0018,0.1422,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000044,10,P000038,Fashion,Arden,0.031,0.0031,0.141,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000060,1,P000023,Grocery,HarvestHill,0.0082,0.0031,0.1448,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000060,2,P000006,Grocery,HarvestHill,0.0083,0.0018,0.1442,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000060,3,P000011,Home,LumaHome,0.009,0.0022,0.1427,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000060,4,P000031,Sports,MotionWorks,0.0084,0.0019,0.142,Recommended because it matches the user's category affinity,True,0.0019
+U000060,5,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000060,6,P000028,Electronics,VoltEdge,0.0083,0.0015,0.139,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000060,7,P000012,Grocery,NorthPantry,0.0088,0.0018,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000060,8,P000018,Electronics,Auralux,0.0079,0.003,0.1377,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000060,9,P000009,Electronics,VoltEdge,0.0079,0.0033,0.1376,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000060,10,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because it matches the user's category affinity,True,0.0017
+U000033,1,P000023,Grocery,HarvestHill,0.0125,0.0031,0.146,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000033,2,P000006,Grocery,HarvestHill,0.0127,0.0018,0.1455,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000033,3,P000011,Home,LumaHome,0.0138,0.0022,0.1441,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000033,4,P000028,Electronics,VoltEdge,0.0127,0.0015,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000033,5,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000033,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because it matches the user's category affinity,True,0.0023
+U000033,7,P000012,Grocery,NorthPantry,0.0135,0.0018,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000033,8,P000018,Electronics,Auralux,0.0122,0.003,0.1389,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000033,9,P000009,Electronics,VoltEdge,0.0121,0.0033,0.1388,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000033,10,P000015,Fashion,Arden,0.0128,0.0017,0.1375,Recommended because it matches the user's category affinity,True,0.0017
+U000008,1,P000023,Grocery,HarvestHill,0.0244,0.0031,0.1494,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000008,2,P000006,Grocery,HarvestHill,0.0249,0.0018,0.1489,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000008,3,P000011,Home,LumaHome,0.0269,0.0022,0.1477,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000008,4,P000031,Sports,MotionWorks,0.0252,0.0019,0.1467,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000008,5,P000028,Electronics,VoltEdge,0.0248,0.0015,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000008,6,P000012,Grocery,NorthPantry,0.0263,0.0018,0.1427,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000008,7,P000018,Electronics,Auralux,0.0237,0.003,0.1421,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000008,8,P000015,Fashion,Arden,0.025,0.0017,0.1409,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000008,9,P000024,Grocery,KindTable,0.0243,0.0018,0.1401,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000008,10,P000021,Sports,StrideIQ,0.0252,0.0034,0.1401,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000061,1,P000014,Sports,Fieldstone,0.029,0.0017,0.1454,Recommended because it matches the user's category affinity,True,0.0017
+U000061,2,P000023,Grocery,HarvestHill,0.0073,0.0031,0.1446,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000061,3,P000006,Grocery,HarvestHill,0.0068,0.0018,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000061,4,P000010,Fashion,LinenLane,0.0085,0.0023,0.1417,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000061,5,P000011,Home,LumaHome,0.005,0.0022,0.1416,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000061,6,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because it matches the user's category affinity,True,0.0019
+U000061,7,P000028,Electronics,VoltEdge,0.0069,0.0015,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000061,8,P000018,Electronics,Auralux,0.0078,0.003,0.1376,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000061,9,P000012,Grocery,NorthPantry,0.0055,0.0018,0.1369,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000061,10,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because ranking features predict purchase intent,False,0.0033
+U000069,1,P000014,Sports,Fieldstone,0.0584,0.0017,0.1536,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000069,2,P000023,Grocery,HarvestHill,0.0146,0.0031,0.1467,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000069,3,P000006,Grocery,HarvestHill,0.0138,0.0018,0.1458,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000069,4,P000010,Fashion,LinenLane,0.0172,0.0023,0.1441,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000069,5,P000031,Sports,MotionWorks,0.0132,0.0019,0.1434,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000069,6,P000011,Home,LumaHome,0.0102,0.0022,0.143,Recommended because it matches the user's category affinity,True,0.0022
+U000069,7,P000009,Electronics,VoltEdge,0.0159,0.0033,0.1398,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000069,8,P000015,Fashion,Arden,0.0135,0.0017,0.1377,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000069,9,P000024,Grocery,KindTable,0.0149,0.0018,0.1374,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000069,10,P000032,Grocery,DailyCrop,0.0158,0.0012,0.137,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000038,1,P000006,Grocery,HarvestHill,0.0226,0.0018,0.1482,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000038,2,P000011,Home,LumaHome,0.0244,0.0022,0.147,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000038,3,P000031,Sports,MotionWorks,0.0229,0.0019,0.1461,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000038,4,P000010,Fashion,LinenLane,0.0208,0.0023,0.1451,Recommended because it matches the user's category affinity,True,0.0023
+U000038,5,P000028,Electronics,VoltEdge,0.0225,0.0015,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000038,6,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000038,7,P000012,Grocery,NorthPantry,0.0239,0.0018,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000038,8,P000018,Electronics,Auralux,0.0215,0.003,0.1415,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000038,9,P000009,Electronics,VoltEdge,0.0215,0.0033,0.1414,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000038,10,P000024,Grocery,KindTable,0.022,0.0018,0.1394,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000018,1,P000023,Grocery,HarvestHill,0.028,0.0031,0.1504,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000018,2,P000006,Grocery,HarvestHill,0.0285,0.0018,0.1499,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000018,3,P000011,Home,LumaHome,0.0309,0.0022,0.1488,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000018,4,P000031,Sports,MotionWorks,0.0289,0.0019,0.1478,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000018,5,P000010,Fashion,LinenLane,0.0263,0.0023,0.1467,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000018,6,P000028,Electronics,VoltEdge,0.0284,0.0015,0.1446,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000018,7,P000012,Grocery,NorthPantry,0.0302,0.0018,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000018,8,P000018,Electronics,Auralux,0.0272,0.003,0.1431,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000018,9,P000009,Electronics,VoltEdge,0.0272,0.0033,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000018,10,P000015,Fashion,Arden,0.0287,0.0017,0.1419,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000065,1,P000014,Sports,Fieldstone,0.1632,0.0017,0.183,Recommended because it matches the user's category affinity,True,0.0017
+U000065,2,P000023,Grocery,HarvestHill,0.0121,0.0031,0.1459,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000065,3,P000010,Fashion,LinenLane,0.021,0.0023,0.1452,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000065,4,P000006,Grocery,HarvestHill,0.0091,0.0018,0.1445,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000065,5,P000031,Sports,MotionWorks,0.0071,0.0019,0.1417,Recommended because it matches the user's category affinity,True,0.0019
+U000065,6,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000065,7,P000009,Electronics,VoltEdge,0.0164,0.0033,0.1399,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000065,8,P000028,Electronics,VoltEdge,0.0098,0.0015,0.1394,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000065,9,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because ranking features predict purchase intent,False,0.003
+U000065,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000055,1,P000023,Grocery,HarvestHill,0.0021,0.0031,0.1431,Recommended because ranking features predict purchase intent,False,0.0031
+U000055,2,P000006,Grocery,HarvestHill,0.0021,0.0018,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000055,3,P000011,Home,LumaHome,0.0023,0.0022,0.1408,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000055,4,P000031,Sports,MotionWorks,0.0021,0.0019,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000055,5,P000010,Fashion,LinenLane,0.0019,0.0023,0.1398,Recommended because ranking features predict purchase intent,False,0.0023
+U000055,6,P000028,Electronics,VoltEdge,0.0021,0.0015,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000055,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000055,8,P000018,Electronics,Auralux,0.002,0.003,0.136,Recommended because ranking features predict purchase intent,False,0.003
+U000055,9,P000012,Grocery,NorthPantry,0.0022,0.0018,0.1359,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000055,10,P000009,Electronics,VoltEdge,0.002,0.0033,0.1359,Recommended because ranking features predict purchase intent,False,0.0033
+U000026,1,P000023,Grocery,HarvestHill,0.0041,0.0031,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000026,2,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000026,3,P000011,Home,LumaHome,0.0045,0.0022,0.1415,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000026,4,P000031,Sports,MotionWorks,0.0042,0.0019,0.1408,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000026,5,P000010,Fashion,LinenLane,0.0038,0.0023,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000026,6,P000028,Electronics,VoltEdge,0.0041,0.0015,0.1378,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000026,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000026,8,P000018,Electronics,Auralux,0.004,0.003,0.1366,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000026,9,P000009,Electronics,VoltEdge,0.004,0.0033,0.1365,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000026,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000070,1,P000006,Grocery,HarvestHill,0.051,0.0018,0.1562,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000070,2,P000023,Grocery,HarvestHill,0.0476,0.0031,0.1559,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000070,3,P000031,Sports,MotionWorks,0.0532,0.0019,0.1546,Recommended because it matches the user's category affinity,True,0.0019
+U000070,4,P000012,Grocery,NorthPantry,0.0612,0.0018,0.1525,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000070,5,P000028,Electronics,VoltEdge,0.0502,0.0015,0.1507,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000070,6,P000010,Fashion,LinenLane,0.0376,0.0023,0.1498,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000070,7,P000015,Fashion,Arden,0.0521,0.0017,0.1485,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000070,8,P000018,Electronics,Auralux,0.043,0.003,0.1475,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000070,9,P000009,Electronics,VoltEdge,0.0428,0.0033,0.1473,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000070,10,P000033,Home,Civica,0.1046,0.002,0.1469,Recommended because the two-tower retrieval model found similar behavior,False,0.002
+U000019,1,P000014,Sports,Fieldstone,0.0267,0.0017,0.1447,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000019,2,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because it matches the user's category affinity,True,0.0031
+U000019,3,P000006,Grocery,HarvestHill,0.002,0.0018,0.1425,Recommended because it matches the user's category affinity,True,0.0018
+U000019,4,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000019,5,P000031,Sports,MotionWorks,0.0017,0.0019,0.1401,Recommended because ranking features predict purchase intent,False,0.0019
+U000019,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000019,7,P000028,Electronics,VoltEdge,0.0021,0.0015,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000019,8,P000018,Electronics,Auralux,0.0031,0.003,0.1363,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000019,9,P000009,Electronics,VoltEdge,0.0032,0.0033,0.1362,Recommended because ranking features predict purchase intent,False,0.0033
+U000019,10,P000012,Grocery,NorthPantry,0.0005,0.0018,0.1355,Recommended because it matches the user's category affinity,True,0.0018
+U000050,1,P000006,Grocery,HarvestHill,0.0123,0.0018,0.1453,Recommended because it matches the user's category affinity,True,0.0018
+U000050,2,P000011,Home,LumaHome,0.0133,0.0022,0.1439,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000050,3,P000031,Sports,MotionWorks,0.0124,0.0019,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000050,4,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because it matches the user's category affinity,True,0.0031
+U000050,5,P000010,Fashion,LinenLane,0.0113,0.0023,0.1424,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000050,6,P000018,Electronics,Auralux,0.0117,0.003,0.1387,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000050,7,P000009,Electronics,VoltEdge,0.0117,0.0033,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000050,8,P000015,Fashion,Arden,0.0123,0.0017,0.1374,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000050,9,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000050,10,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because ranking features predict purchase intent,False,0.0015
+U000072,1,P000023,Grocery,HarvestHill,0.0288,0.0031,0.1506,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000072,2,P000006,Grocery,HarvestHill,0.0294,0.0018,0.1501,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000072,3,P000011,Home,LumaHome,0.0318,0.0022,0.1491,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000072,4,P000031,Sports,MotionWorks,0.0297,0.0019,0.148,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000072,5,P000010,Fashion,LinenLane,0.0271,0.0023,0.1469,Recommended because it matches the user's category affinity,True,0.0023
+U000072,6,P000028,Electronics,VoltEdge,0.0293,0.0015,0.1449,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000072,7,P000012,Grocery,NorthPantry,0.0311,0.0018,0.144,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000072,8,P000018,Electronics,Auralux,0.028,0.003,0.1433,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000072,9,P000009,Electronics,VoltEdge,0.028,0.0033,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000072,10,P000021,Sports,StrideIQ,0.0297,0.0034,0.1413,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000003,1,P000023,Grocery,HarvestHill,0.0045,0.0031,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000003,2,P000006,Grocery,HarvestHill,0.0046,0.0018,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000003,3,P000031,Sports,MotionWorks,0.0046,0.0019,0.141,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000003,4,P000010,Fashion,LinenLane,0.0042,0.0023,0.1405,Recommended because it matches the user's category affinity,True,0.0023
+U000003,5,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000003,6,P000028,Electronics,VoltEdge,0.0046,0.0015,0.138,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000003,7,P000014,Sports,Fieldstone,0.0,0.0017,0.1373,Recommended because ranking features predict purchase intent,False,0.0017
+U000003,8,P000018,Electronics,Auralux,0.0044,0.003,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000003,9,P000009,Electronics,VoltEdge,0.0043,0.0033,0.1366,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000003,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000004,1,P000014,Sports,Fieldstone,0.1295,0.0017,0.1735,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000004,2,P000006,Grocery,HarvestHill,0.0305,0.0018,0.1505,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000004,3,P000010,Fashion,LinenLane,0.0382,0.0023,0.15,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000004,4,P000031,Sports,MotionWorks,0.0293,0.0019,0.1479,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000004,5,P000011,Home,LumaHome,0.0225,0.0022,0.1465,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000004,6,P000028,Electronics,VoltEdge,0.031,0.0015,0.1454,Recommended because it matches the user's category affinity,True,0.0015
+U000004,7,P000018,Electronics,Auralux,0.0351,0.003,0.1453,Recommended because it matches the user's category affinity,True,0.003
+U000004,8,P000009,Electronics,VoltEdge,0.0352,0.0033,0.1452,Recommended because it matches the user's category affinity,True,0.0033
+U000004,9,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because ranking features predict purchase intent,False,0.0031
+U000004,10,P000024,Grocery,KindTable,0.0329,0.0018,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000062,1,P000023,Grocery,HarvestHill,0.0437,0.0031,0.1548,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000062,2,P000031,Sports,MotionWorks,0.0452,0.0019,0.1523,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000062,3,P000028,Electronics,VoltEdge,0.0444,0.0015,0.1491,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000062,4,P000018,Electronics,Auralux,0.0425,0.003,0.1474,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000062,5,P000009,Electronics,VoltEdge,0.0425,0.0033,0.1473,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000062,6,P000021,Sports,StrideIQ,0.0451,0.0034,0.1457,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000062,7,P000038,Fashion,Arden,0.0437,0.0031,0.1446,Recommended because it matches the user's category affinity,True,0.0031
+U000062,8,P000032,Grocery,DailyCrop,0.0426,0.0012,0.1445,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000062,9,P000030,Beauty,Aster,0.0444,0.0032,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0032
+U000062,10,P000016,Home,Hearthly,0.0447,0.0028,0.1426,Recommended because the two-tower retrieval model found similar behavior,False,0.0028
+U000078,1,P000014,Sports,Fieldstone,0.0521,0.0017,0.1519,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000078,2,P000023,Grocery,HarvestHill,0.0131,0.0031,0.1462,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000078,3,P000006,Grocery,HarvestHill,0.0123,0.0018,0.1454,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000078,4,P000010,Fashion,LinenLane,0.0154,0.0023,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000078,5,P000031,Sports,MotionWorks,0.0118,0.0019,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000078,6,P000011,Home,LumaHome,0.0091,0.0022,0.1427,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000078,7,P000028,Electronics,VoltEdge,0.0125,0.0015,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000078,8,P000018,Electronics,Auralux,0.0141,0.003,0.1394,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000078,9,P000009,Electronics,VoltEdge,0.0142,0.0033,0.1393,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000078,10,P000015,Fashion,Arden,0.012,0.0017,0.1373,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000006,1,P000023,Grocery,HarvestHill,0.0,0.0031,0.1425,Recommended because it matches the user's category affinity,True,0.0031
+U000006,2,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because it matches the user's category affinity,True,0.0018
+U000006,3,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because ranking features predict purchase intent,False,0.0022
+U000006,4,P000031,Sports,MotionWorks,0.0004,0.0019,0.1398,Recommended because ranking features predict purchase intent,False,0.0019
+U000006,5,P000010,Fashion,LinenLane,0.001,0.0023,0.1395,Recommended because ranking features predict purchase intent,False,0.0023
+U000006,6,P000014,Sports,Fieldstone,0.0067,0.0017,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000006,7,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because ranking features predict purchase intent,False,0.0015
+U000006,8,P000018,Electronics,Auralux,0.0008,0.003,0.1357,Recommended because ranking features predict purchase intent,False,0.003
+U000006,9,P000009,Electronics,VoltEdge,0.0,0.0033,0.1354,Recommended because ranking features predict purchase intent,False,0.0033
+U000006,10,P000012,Grocery,NorthPantry,0.0001,0.0018,0.1354,Recommended because it matches the user's category affinity,True,0.0018
+U000073,1,P000023,Grocery,HarvestHill,0.0539,0.0031,0.1576,Recommended because it matches the user's category affinity,True,0.0031
+U000073,2,P000006,Grocery,HarvestHill,0.055,0.0018,0.1573,Recommended because it matches the user's category affinity,True,0.0018
+U000073,3,P000011,Home,LumaHome,0.0594,0.0022,0.1568,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000073,4,P000031,Sports,MotionWorks,0.0557,0.0019,0.1553,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000073,5,P000010,Fashion,LinenLane,0.0507,0.0023,0.1535,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000073,6,P000028,Electronics,VoltEdge,0.0547,0.0015,0.152,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000073,7,P000012,Grocery,NorthPantry,0.0582,0.0018,0.1516,Recommended because it matches the user's category affinity,True,0.0018
+U000073,8,P000018,Electronics,Auralux,0.0524,0.003,0.1501,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000073,9,P000015,Fashion,Arden,0.0553,0.0017,0.1494,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000073,10,P000024,Grocery,KindTable,0.0536,0.0018,0.1483,Recommended because it matches the user's category affinity,True,0.0018
+U000010,1,P000023,Grocery,HarvestHill,0.0289,0.0031,0.1507,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000010,2,P000011,Home,LumaHome,0.0319,0.0022,0.1491,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000010,3,P000031,Sports,MotionWorks,0.0299,0.0019,0.148,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000010,4,P000010,Fashion,LinenLane,0.0272,0.0023,0.1469,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000010,5,P000028,Electronics,VoltEdge,0.0294,0.0015,0.1449,Recommended because it matches the user's category affinity,True,0.0015
+U000010,6,P000012,Grocery,NorthPantry,0.0313,0.0018,0.1441,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000010,7,P000015,Fashion,Arden,0.0297,0.0017,0.1422,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000010,8,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000010,9,P000021,Sports,StrideIQ,0.0299,0.0034,0.1414,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000010,10,P000024,Grocery,KindTable,0.0288,0.0018,0.1413,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000001,1,P000014,Sports,Fieldstone,0.0611,0.0017,0.1544,Recommended because it matches the user's category affinity,True,0.0017
+U000001,2,P000023,Grocery,HarvestHill,0.0153,0.0031,0.1468,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000001,3,P000006,Grocery,HarvestHill,0.0144,0.0018,0.1459,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000001,4,P000010,Fashion,LinenLane,0.018,0.0023,0.1443,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000001,5,P000011,Home,LumaHome,0.0106,0.0022,0.1432,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000001,6,P000028,Electronics,VoltEdge,0.0146,0.0015,0.1408,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000001,7,P000018,Electronics,Auralux,0.0166,0.003,0.1401,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000001,8,P000009,Electronics,VoltEdge,0.0166,0.0033,0.14,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000001,9,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because it matches the user's category affinity,True,0.0019
+U000001,10,P000012,Grocery,NorthPantry,0.0117,0.0018,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000013,1,P000023,Grocery,HarvestHill,0.0048,0.0031,0.1439,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000013,2,P000014,Sports,Fieldstone,0.0192,0.0017,0.1426,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000013,3,P000006,Grocery,HarvestHill,0.0,0.0018,0.1419,Recommended because ranking features predict purchase intent,False,0.0018
+U000013,4,P000011,Home,LumaHome,0.0033,0.0022,0.1411,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000013,5,P000031,Sports,MotionWorks,0.0043,0.0019,0.1409,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000013,6,P000010,Fashion,LinenLane,0.0057,0.0023,0.1409,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000013,7,P000018,Electronics,Auralux,0.0052,0.003,0.1369,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000013,8,P000009,Electronics,VoltEdge,0.0052,0.0033,0.1368,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000013,9,P000028,Electronics,VoltEdge,0.0,0.0015,0.1367,Recommended because ranking features predict purchase intent,False,0.0015
+U000013,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000009,1,P000033,Home,Civica,0.2316,0.002,0.1825,Recommended because the two-tower retrieval model found similar behavior,False,0.002
+U000009,2,P000011,Home,LumaHome,0.1439,0.0022,0.1805,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000009,3,P000006,Grocery,HarvestHill,0.1129,0.0018,0.1735,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000009,4,P000031,Sports,MotionWorks,0.1177,0.0019,0.1726,Recommended because it matches the user's category affinity,True,0.0019
+U000009,5,P000023,Grocery,HarvestHill,0.1053,0.0031,0.172,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000009,6,P000028,Electronics,VoltEdge,0.1111,0.0015,0.1678,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000009,7,P000015,Fashion,Arden,0.1153,0.0017,0.1662,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000009,8,P000021,Sports,StrideIQ,0.1175,0.0034,0.1659,Recommended because it matches the user's category affinity,True,0.0034
+U000009,9,P000007,Sports,MotionWorks,0.1355,0.0062,0.1646,Recommended because it matches the user's category affinity,True,0.0062
+U000009,10,P000039,Home,NestForm,0.1145,0.0028,0.1637,Recommended because the two-tower retrieval model found similar behavior,False,0.0028
+U000005,1,P000014,Sports,Fieldstone,0.0426,0.0017,0.1492,Recommended because it matches the user's category affinity,True,0.0017
+U000005,2,P000023,Grocery,HarvestHill,0.0107,0.0031,0.1455,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000005,3,P000006,Grocery,HarvestHill,0.01,0.0018,0.1447,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000005,4,P000010,Fashion,LinenLane,0.0126,0.0023,0.1428,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000005,5,P000031,Sports,MotionWorks,0.0096,0.0019,0.1424,Recommended because it matches the user's category affinity,True,0.0019
+U000005,6,P000011,Home,LumaHome,0.0074,0.0022,0.1423,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000005,7,P000028,Electronics,VoltEdge,0.0102,0.0015,0.1395,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000005,8,P000009,Electronics,VoltEdge,0.0116,0.0033,0.1386,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000005,9,P000012,Grocery,NorthPantry,0.0081,0.0018,0.1376,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000005,10,P000015,Fashion,Arden,0.0098,0.0017,0.1367,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000015,1,P000014,Sports,Fieldstone,0.0636,0.0017,0.1551,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000015,2,P000023,Grocery,HarvestHill,0.0159,0.0031,0.147,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000015,3,P000006,Grocery,HarvestHill,0.015,0.0018,0.1461,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000015,4,P000010,Fashion,LinenLane,0.0187,0.0023,0.1445,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000015,5,P000031,Sports,MotionWorks,0.0144,0.0019,0.1437,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000015,6,P000011,Home,LumaHome,0.0111,0.0022,0.1433,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000015,7,P000028,Electronics,VoltEdge,0.0152,0.0015,0.1409,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000015,8,P000018,Electronics,Auralux,0.0172,0.003,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000015,9,P000009,Electronics,VoltEdge,0.0173,0.0033,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000015,10,P000012,Grocery,NorthPantry,0.0121,0.0018,0.1387,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000047,1,P000023,Grocery,HarvestHill,0.0679,0.0031,0.1616,Recommended because it matches the user's category affinity,True,0.0031
+U000047,2,P000011,Home,LumaHome,0.0749,0.0022,0.1612,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000047,3,P000031,Sports,MotionWorks,0.0702,0.0019,0.1593,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000047,4,P000010,Fashion,LinenLane,0.064,0.0023,0.1572,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000047,5,P000028,Electronics,VoltEdge,0.069,0.0015,0.156,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000047,6,P000012,Grocery,NorthPantry,0.0734,0.0018,0.1559,Recommended because it matches the user's category affinity,True,0.0018
+U000047,7,P000018,Electronics,Auralux,0.0661,0.003,0.154,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000047,8,P000009,Electronics,VoltEdge,0.066,0.0033,0.1539,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000047,9,P000015,Fashion,Arden,0.0697,0.0017,0.1534,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000047,10,P000021,Sports,StrideIQ,0.0701,0.0034,0.1527,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000041,1,P000023,Grocery,HarvestHill,0.0613,0.0031,0.1597,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000041,2,P000011,Home,LumaHome,0.0675,0.0022,0.1591,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000041,3,P000031,Sports,MotionWorks,0.0633,0.0019,0.1574,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000041,4,P000010,Fashion,LinenLane,0.0577,0.0023,0.1554,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000041,5,P000012,Grocery,NorthPantry,0.0662,0.0018,0.1538,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000041,6,P000018,Electronics,Auralux,0.0596,0.003,0.1521,Recommended because it matches the user's category affinity,True,0.003
+U000041,7,P000009,Electronics,VoltEdge,0.0595,0.0033,0.152,Recommended because it matches the user's category affinity,True,0.0033
+U000041,8,P000015,Fashion,Arden,0.0629,0.0017,0.1515,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000041,9,P000021,Sports,StrideIQ,0.0632,0.0034,0.1507,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000041,10,P000024,Grocery,KindTable,0.061,0.0018,0.1503,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000045,1,P000023,Grocery,HarvestHill,0.0283,0.0031,0.1505,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000045,2,P000006,Grocery,HarvestHill,0.0289,0.0018,0.15,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000045,3,P000031,Sports,MotionWorks,0.0292,0.0019,0.1479,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000045,4,P000010,Fashion,LinenLane,0.0266,0.0023,0.1467,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000045,5,P000028,Electronics,VoltEdge,0.0287,0.0015,0.1447,Recommended because it matches the user's category affinity,True,0.0015
+U000045,6,P000012,Grocery,NorthPantry,0.0306,0.0018,0.1439,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000045,7,P000009,Electronics,VoltEdge,0.0275,0.0033,0.1431,Recommended because it matches the user's category affinity,True,0.0033
+U000045,8,P000015,Fashion,Arden,0.029,0.0017,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000045,9,P000021,Sports,StrideIQ,0.0292,0.0034,0.1412,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000045,10,P000032,Grocery,DailyCrop,0.0276,0.0012,0.1403,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000028,1,P000014,Sports,Fieldstone,0.0708,0.0017,0.1571,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000028,2,P000023,Grocery,HarvestHill,0.0177,0.0031,0.1475,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000028,3,P000006,Grocery,HarvestHill,0.0167,0.0018,0.1466,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000028,4,P000010,Fashion,LinenLane,0.0209,0.0023,0.1451,Recommended because it matches the user's category affinity,True,0.0023
+U000028,5,P000031,Sports,MotionWorks,0.016,0.0019,0.1442,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000028,6,P000011,Home,LumaHome,0.0123,0.0022,0.1436,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000028,7,P000028,Electronics,VoltEdge,0.0169,0.0015,0.1414,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000028,8,P000018,Electronics,Auralux,0.0192,0.003,0.1408,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000028,9,P000009,Electronics,VoltEdge,0.0192,0.0033,0.1408,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000028,10,P000012,Grocery,NorthPantry,0.0135,0.0018,0.1391,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000022,1,P000023,Grocery,HarvestHill,0.025,0.0031,0.1495,Recommended because it matches the user's category affinity,True,0.0031
+U000022,2,P000006,Grocery,HarvestHill,0.0255,0.0018,0.1491,Recommended because it matches the user's category affinity,True,0.0018
+U000022,3,P000011,Home,LumaHome,0.0276,0.0022,0.1479,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000022,4,P000031,Sports,MotionWorks,0.0258,0.0019,0.1469,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000022,5,P000010,Fashion,LinenLane,0.0235,0.0023,0.1459,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000022,6,P000028,Electronics,VoltEdge,0.0254,0.0015,0.1438,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000022,7,P000012,Grocery,NorthPantry,0.027,0.0018,0.1429,Recommended because it matches the user's category affinity,True,0.0018
+U000022,8,P000018,Electronics,Auralux,0.0243,0.003,0.1423,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000022,9,P000021,Sports,StrideIQ,0.0258,0.0034,0.1402,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000022,10,P000032,Grocery,DailyCrop,0.0244,0.0012,0.1394,Recommended because it matches the user's category affinity,True,0.0012
+U000031,1,P000011,Home,LumaHome,0.1835,0.0022,0.1916,Recommended because it matches the user's category affinity,True,0.0022
+U000031,2,P000006,Grocery,HarvestHill,0.1698,0.0018,0.1895,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000031,3,P000023,Grocery,HarvestHill,0.1665,0.0031,0.1892,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000031,4,P000031,Sports,MotionWorks,0.1719,0.0019,0.1878,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000031,5,P000012,Grocery,NorthPantry,0.1798,0.0018,0.1857,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000031,6,P000028,Electronics,VoltEdge,0.169,0.0015,0.184,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000031,7,P000010,Fashion,LinenLane,0.1567,0.0023,0.1831,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000031,8,P000015,Fashion,Arden,0.1709,0.0017,0.1817,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000031,9,P000021,Sports,StrideIQ,0.1718,0.0034,0.1811,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000031,10,P000018,Electronics,Auralux,0.162,0.003,0.1808,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000039,1,P000023,Grocery,HarvestHill,0.0265,0.0031,0.15,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000039,2,P000006,Grocery,HarvestHill,0.027,0.0018,0.1495,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000039,3,P000011,Home,LumaHome,0.0292,0.0022,0.1484,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000039,4,P000031,Sports,MotionWorks,0.0273,0.0019,0.1473,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000039,5,P000010,Fashion,LinenLane,0.0249,0.0023,0.1463,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000039,6,P000012,Grocery,NorthPantry,0.0286,0.0018,0.1433,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000039,7,P000009,Electronics,VoltEdge,0.0257,0.0033,0.1426,Recommended because it matches the user's category affinity,True,0.0033
+U000039,8,P000021,Sports,StrideIQ,0.0273,0.0034,0.1407,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000039,9,P000024,Grocery,KindTable,0.0263,0.0018,0.1406,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000039,10,P000032,Grocery,DailyCrop,0.0258,0.0012,0.1398,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000059,1,P000023,Grocery,HarvestHill,0.0017,0.0031,0.143,Recommended because ranking features predict purchase intent,False,0.0031
+U000059,2,P000006,Grocery,HarvestHill,0.0016,0.0018,0.1424,Recommended because ranking features predict purchase intent,False,0.0018
+U000059,3,P000011,Home,LumaHome,0.0012,0.0022,0.1405,Recommended because ranking features predict purchase intent,False,0.0022
+U000059,4,P000031,Sports,MotionWorks,0.0015,0.0019,0.1401,Recommended because ranking features predict purchase intent,False,0.0019
+U000059,5,P000010,Fashion,LinenLane,0.002,0.0023,0.1398,Recommended because ranking features predict purchase intent,False,0.0023
+U000059,6,P000014,Sports,Fieldstone,0.0068,0.0017,0.1392,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000059,7,P000028,Electronics,VoltEdge,0.0016,0.0015,0.1371,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000059,8,P000018,Electronics,Auralux,0.0018,0.003,0.136,Recommended because ranking features predict purchase intent,False,0.003
+U000059,9,P000009,Electronics,VoltEdge,0.0018,0.0033,0.1359,Recommended because ranking features predict purchase intent,False,0.0033
+U000059,10,P000012,Grocery,NorthPantry,0.0013,0.0018,0.1357,Recommended because ranking features predict purchase intent,False,0.0018
+U000049,1,P000011,Home,LumaHome,0.1002,0.0022,0.1683,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000049,2,P000006,Grocery,HarvestHill,0.0927,0.0018,0.1679,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000049,3,P000031,Sports,MotionWorks,0.0939,0.0019,0.166,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000049,4,P000010,Fashion,LinenLane,0.0856,0.0023,0.1632,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000049,5,P000012,Grocery,NorthPantry,0.0982,0.0018,0.1628,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000049,6,P000028,Electronics,VoltEdge,0.0923,0.0015,0.1625,Recommended because it matches the user's category affinity,True,0.0015
+U000049,7,P000018,Electronics,Auralux,0.0885,0.003,0.1602,Recommended because it matches the user's category affinity,True,0.003
+U000049,8,P000009,Electronics,VoltEdge,0.0884,0.0033,0.1601,Recommended because it matches the user's category affinity,True,0.0033
+U000049,9,P000021,Sports,StrideIQ,0.0939,0.0034,0.1593,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000049,10,P000024,Grocery,KindTable,0.0905,0.0018,0.1586,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000052,1,P000014,Sports,Fieldstone,0.0324,0.0017,0.1463,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000052,2,P000023,Grocery,HarvestHill,0.0024,0.0031,0.1432,Recommended because ranking features predict purchase intent,False,0.0031
+U000052,3,P000006,Grocery,HarvestHill,0.0018,0.0018,0.1424,Recommended because ranking features predict purchase intent,False,0.0018
+U000052,4,P000011,Home,LumaHome,0.0,0.0022,0.1402,Recommended because it matches the user's category affinity,True,0.0022
+U000052,5,P000031,Sports,MotionWorks,0.0014,0.0019,0.1401,Recommended because ranking features predict purchase intent,False,0.0019
+U000052,6,P000010,Fashion,LinenLane,0.0,0.0023,0.1393,Recommended because ranking features predict purchase intent,False,0.0023
+U000052,7,P000028,Electronics,VoltEdge,0.0019,0.0015,0.1372,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000052,8,P000009,Electronics,VoltEdge,0.0032,0.0033,0.1363,Recommended because ranking features predict purchase intent,False,0.0033
+U000052,9,P000018,Electronics,Auralux,0.0,0.003,0.1354,Recommended because ranking features predict purchase intent,False,0.003
+U000052,10,P000012,Grocery,NorthPantry,0.0,0.0018,0.1353,Recommended because ranking features predict purchase intent,False,0.0018
+U000056,1,P000014,Sports,Fieldstone,0.1301,0.0017,0.1737,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000056,2,P000023,Grocery,HarvestHill,0.0326,0.0031,0.1517,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000056,3,P000006,Grocery,HarvestHill,0.0307,0.0018,0.1505,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000056,4,P000010,Fashion,LinenLane,0.0383,0.0023,0.15,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000056,5,P000031,Sports,MotionWorks,0.0294,0.0019,0.1479,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000056,6,P000028,Electronics,VoltEdge,0.0311,0.0015,0.1454,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000056,7,P000018,Electronics,Auralux,0.0352,0.003,0.1453,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000056,8,P000009,Electronics,VoltEdge,0.0354,0.0033,0.1453,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000056,9,P000024,Grocery,KindTable,0.0331,0.0018,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000056,10,P000032,Grocery,DailyCrop,0.0351,0.0012,0.1424,Recommended because the two-tower retrieval model found similar behavior,False,0.0012
+U000076,1,P000014,Sports,Fieldstone,0.2837,0.0017,0.2167,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000076,2,P000010,Fashion,LinenLane,0.0414,0.0023,0.1509,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000076,3,P000023,Grocery,HarvestHill,0.0263,0.0031,0.1499,Recommended because it matches the user's category affinity,True,0.0031
+U000076,4,P000006,Grocery,HarvestHill,0.0212,0.0018,0.1478,Recommended because it matches the user's category affinity,True,0.0018
+U000076,5,P000009,Electronics,VoltEdge,0.0336,0.0033,0.1448,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000076,6,P000018,Electronics,Auralux,0.0333,0.003,0.1448,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000076,7,P000031,Sports,MotionWorks,0.0179,0.0019,0.1447,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000076,8,P000034,Home,NestForm,0.0981,0.002,0.1444,Recommended because the two-tower retrieval model found similar behavior,False,0.002
+U000076,9,P000028,Electronics,VoltEdge,0.0224,0.0015,0.143,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000076,10,P000032,Grocery,DailyCrop,0.0329,0.0012,0.1418,Recommended because it matches the user's category affinity,True,0.0012
+U000075,1,P000014,Sports,Fieldstone,0.0869,0.0017,0.1616,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000075,2,P000023,Grocery,HarvestHill,0.0218,0.0031,0.1486,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000075,3,P000006,Grocery,HarvestHill,0.0205,0.0018,0.1476,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000075,4,P000010,Fashion,LinenLane,0.0256,0.0023,0.1464,Recommended because the two-tower retrieval model found similar behavior,False,0.0023
+U000075,5,P000011,Home,LumaHome,0.0151,0.0022,0.1444,Recommended because it matches the user's category affinity,True,0.0022
+U000075,6,P000028,Electronics,VoltEdge,0.0208,0.0015,0.1425,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000075,7,P000018,Electronics,Auralux,0.0235,0.003,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.003
+U000075,8,P000009,Electronics,VoltEdge,0.0236,0.0033,0.142,Recommended because the two-tower retrieval model found similar behavior,False,0.0033
+U000075,9,P000012,Grocery,NorthPantry,0.0166,0.0018,0.1399,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000075,10,P000031,Sports,MotionWorks,0.0,0.0019,0.1397,Recommended because ranking features predict purchase intent,False,0.0019
+U000079,1,P000023,Grocery,HarvestHill,0.0657,0.0031,0.1609,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000079,2,P000006,Grocery,HarvestHill,0.067,0.0018,0.1607,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000079,3,P000011,Home,LumaHome,0.0724,0.0022,0.1605,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000079,4,P000031,Sports,MotionWorks,0.0678,0.0019,0.1587,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000079,5,P000010,Fashion,LinenLane,0.0618,0.0023,0.1566,Recommended because it matches the user's category affinity,True,0.0023
+U000079,6,P000028,Electronics,VoltEdge,0.0667,0.0015,0.1553,Recommended because the two-tower retrieval model found similar behavior,False,0.0015
+U000079,7,P000012,Grocery,NorthPantry,0.0709,0.0018,0.1552,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000079,8,P000021,Sports,StrideIQ,0.0678,0.0034,0.152,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000079,9,P000024,Grocery,KindTable,0.0653,0.0018,0.1516,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000079,10,P000038,Fashion,Arden,0.0656,0.0031,0.1507,Recommended because it matches the user's category affinity,True,0.0031
+U000080,1,P000023,Grocery,HarvestHill,0.0583,0.0031,0.1589,Recommended because the two-tower retrieval model found similar behavior,False,0.0031
+U000080,2,P000006,Grocery,HarvestHill,0.0595,0.0018,0.1586,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000080,3,P000011,Home,LumaHome,0.0643,0.0022,0.1582,Recommended because the two-tower retrieval model found similar behavior,False,0.0022
+U000080,4,P000031,Sports,MotionWorks,0.0602,0.0019,0.1565,Recommended because the two-tower retrieval model found similar behavior,False,0.0019
+U000080,5,P000028,Electronics,VoltEdge,0.0592,0.0015,0.1533,Recommended because it matches the user's category affinity,True,0.0015
+U000080,6,P000012,Grocery,NorthPantry,0.063,0.0018,0.1529,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000080,7,P000015,Fashion,Arden,0.0599,0.0017,0.1507,Recommended because the two-tower retrieval model found similar behavior,False,0.0017
+U000080,8,P000021,Sports,StrideIQ,0.0602,0.0034,0.1499,Recommended because the two-tower retrieval model found similar behavior,False,0.0034
+U000080,9,P000024,Grocery,KindTable,0.058,0.0018,0.1495,Recommended because the two-tower retrieval model found similar behavior,False,0.0018
+U000080,10,P000038,Fashion,Arden,0.0582,0.0031,0.1487,Recommended because the two-tower retrieval model found similar behavior,False,0.0031

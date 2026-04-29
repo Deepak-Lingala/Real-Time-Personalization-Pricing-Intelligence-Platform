@@ -1,0 +1,88 @@
+[
+  {
+    "model_name": "two_stage_recommender",
+    "version": "v1.0.0",
+    "training_date": "2026-04-29T07:06:18.137073+00:00",
+    "metrics": {
+      "retrieval_recall_at_100": 1.0,
+      "precision_at_k": 0.0417,
+      "recall_at_k": 0.4167,
+      "ndcg_at_k": 0.1411,
+      "map_at_k": 0.0621,
+      "catalog_coverage": 0.4,
+      "diversity": 0.0417,
+      "cold_start_performance": 1.0,
+      "simulated_ctr_lift": 0.0208
+    },
+    "deployment_status": "staging",
+    "artifact_path": "models/two_stage_recommender.joblib",
+    "parameters": {
+      "retrieval_top_k": 100,
+      "retrieval_backend_requested": "sklearn",
+      "retrieval_backend_used": "sklearn",
+      "retrieval_training_device": "cpu",
+      "retrieval_epochs": 4,
+      "ranking_backend_requested": "sklearn",
+      "ranking_backend_used": "sklearn_gradient_boosting"
+    },
+    "artifacts": [
+      "models/two_stage_recommender.joblib"
+    ],
+    "registry_stage": "Staging",
+    "rollback_version": null,
+    "tracking_backend": "json",
+    "mlflow_run_id": null
+  },
+  {
+    "model_name": "dynamic_pricing",
+    "version": "v1.0.0",
+    "training_date": "2026-04-29T07:06:18.139670+00:00",
+    "metrics": {
+      "estimated_revenue_uplift": 0.174,
+      "estimated_margin_improvement": 0.0267,
+      "estimated_conversion_improvement": 0.3781
+    },
+    "deployment_status": "staging",
+    "artifact_path": "models/dynamic_pricing.joblib",
+    "parameters": {
+      "optimizer": "constrained_expected_margin",
+      "pricing_backend_requested": "sklearn",
+      "pricing_backend_used": "sklearn_gradient_boosting",
+      "guardrails": "margin_inventory_competitor"
+    },
+    "artifacts": [
+      "models/dynamic_pricing.joblib"
+    ],
+    "registry_stage": "Staging",
+    "rollback_version": null,
+    "tracking_backend": "json",
+    "mlflow_run_id": null
+  },
+  {
+    "model_name": "demand_forecaster",
+    "version": "v1.0.0",
+    "training_date": "2026-04-29T07:06:18.169285+00:00",
+    "metrics": {
+      "mae": 0.0,
+      "rmse": 0.0,
+      "mape": 0.0,
+      "baseline_mae": 1.754,
+      "baseline_rmse": 2.242,
+      "baseline_wape": 0.6329
+    },
+    "deployment_status": "staging",
+    "artifact_path": "models/demand_forecaster.joblib",
+    "parameters": {
+      "forecasting_backend_requested": "sklearn",
+      "forecasting_backend_used": "sklearn_random_forest",
+      "benchmark": "seasonal_naive"
+    },
+    "artifacts": [
+      "models/demand_forecaster.joblib"
+    ],
+    "registry_stage": "Staging",
+    "rollback_version": null,
+    "tracking_backend": "json",
+    "mlflow_run_id": null
+  }
+]

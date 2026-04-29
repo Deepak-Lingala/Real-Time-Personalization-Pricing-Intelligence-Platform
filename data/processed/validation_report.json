@@ -1,0 +1,23 @@
+[
+  {
+    "table_name": "events",
+    "row_count": 804,
+    "passed": true,
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "table_name": "product_catalog",
+    "row_count": 40,
+    "passed": true,
+    "warnings": [],
+    "errors": []
+  },
+  {
+    "table_name": "demand",
+    "row_count": 800,
+    "passed": true,
+    "warnings": [],
+    "errors": []
+  }
+]

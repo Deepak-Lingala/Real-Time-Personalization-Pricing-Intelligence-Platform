@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "real-time-personalization-pricing-intelligence"
+version = "0.1.0"
+description = "Synthetic enterprise e-commerce ML platform for personalization, dynamic pricing, forecasting, analytics, and MLOps simulation."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Portfolio Project" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

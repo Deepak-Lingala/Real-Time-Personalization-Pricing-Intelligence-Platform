@@ -1,0 +1,52 @@
+[
+  {
+    "name": "user_features",
+    "version": "v1",
+    "entity": "user_id",
+    "row_count": 80,
+    "feature_count": 20,
+    "freshness_timestamp": "2026-04-29T07:06:08.578147+00:00",
+    "offline_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/offline/v1/user_features.csv",
+    "online_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/online/v1/user_features.json"
+  },
+  {
+    "name": "product_features",
+    "version": "v1",
+    "entity": "product_id",
+    "row_count": 40,
+    "feature_count": 38,
+    "freshness_timestamp": "2026-04-29T07:06:08.578147+00:00",
+    "offline_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/offline/v1/product_features.csv",
+    "online_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/online/v1/product_features.json"
+  },
+  {
+    "name": "session_features",
+    "version": "v1",
+    "entity": "session_id",
+    "row_count": 799,
+    "feature_count": 15,
+    "freshness_timestamp": "2026-04-29T07:06:08.578147+00:00",
+    "offline_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/offline/v1/session_features.csv",
+    "online_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/online/v1/session_features.json"
+  },
+  {
+    "name": "pricing_features",
+    "version": "v1",
+    "entity": "product_id",
+    "row_count": 800,
+    "feature_count": 15,
+    "freshness_timestamp": "2026-04-29T07:06:08.578147+00:00",
+    "offline_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/offline/v1/pricing_features.csv",
+    "online_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/online/v1/pricing_features.json"
+  },
+  {
+    "name": "inventory_features",
+    "version": "v1",
+    "entity": "product_id",
+    "row_count": 40,
+    "feature_count": 13,
+    "freshness_timestamp": "2026-04-29T07:06:08.578147+00:00",
+    "offline_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/offline/v1/inventory_features.csv",
+    "online_path": "C:/Users/ual-laptop/Downloads/Real-Time Personalization & Pricing Intelligence Platform/data/feature_store/online/v1/inventory_features.json"
+  }
+]

@@ -1,0 +1,74 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pricing-intelligence-dashboard
+  namespace: personalization-pricing
+  labels:
+    app.kubernetes.io/name: pricing-intelligence-dashboard
+    app.kubernetes.io/part-of: real-time-personalization-pricing-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: pricing-intelligence-dashboard
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: pricing-intelligence-dashboard
+        app.kubernetes.io/part-of: real-time-personalization-pricing-platform
+    spec:
+      securityContext:
+        fsGroup: 1000
+      containers:
+        - name: dashboard
+          image: real-time-personalization-pricing-platform:latest
+          imagePullPolicy: IfNotPresent
+          command: ["streamlit"]
+          args:
+            - run
+            - app/dashboard.py
+            - --server.address
+            - 0.0.0.0
+            - --server.port
+            - "8501"
+          envFrom:
+            - configMapRef:
+                name: platform-runtime-config
+          ports:
+            - name: http
+              containerPort: 8501
+          readinessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: http
+            initialDelaySeconds: 20
+            periodSeconds: 15
+          livenessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: http
+            initialDelaySeconds: 40
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: "1"
+              memory: 1Gi
+          volumeMounts:
+            - name: data-artifacts
+              mountPath: /app/data/processed
+              subPath: processed
+            - name: data-artifacts
+              mountPath: /app/data/feature_store
+              subPath: feature_store
+            - name: model-artifacts
+              mountPath: /app/models
+      volumes:
+        - name: data-artifacts
+          persistentVolumeClaim:
+            claimName: platform-data-pvc
+        - name: model-artifacts
+          persistentVolumeClaim:
+            claimName: platform-models-pvc

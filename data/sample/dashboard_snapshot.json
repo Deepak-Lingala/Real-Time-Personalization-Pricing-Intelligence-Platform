@@ -1,0 +1,137 @@
+{
+  "kpis": {
+    "total_users": 5000,
+    "total_products": 800,
+    "total_sessions": 38420,
+    "total_revenue": 2847350.42,
+    "total_margin": 996572.65,
+    "ctr": 0.274,
+    "conversion_rate": 0.081,
+    "average_order_value": 78.46,
+    "stockout_rate": 0.043,
+    "return_rate": 0.061,
+    "repeat_purchase_rate": 0.318,
+    "customer_lifetime_value_estimate": 246.8,
+    "estimated_revenue_uplift": 0.124,
+    "estimated_margin_improvement": 0.087,
+    "recommendation_recall_at_k": 0.296,
+    "recommendation_precision_at_k": 0.218,
+    "recommendation_ndcg_at_k": 0.411,
+    "forecast_wape": 0.143,
+    "inference_latency_ms": 38.7,
+    "prediction_volume": 28280,
+    "drift_status": "stable",
+    "model_version": "v1.0.0"
+  },
+  "sample_user": "U003812",
+  "revenue_trend": [
+    {"date": "2025-05-01", "revenue": 51042, "margin": 17864, "purchases": 662, "ctr": 0.251, "conversion_rate": 0.074},
+    {"date": "2025-05-02", "revenue": 53510, "margin": 18729, "purchases": 691, "ctr": 0.258, "conversion_rate": 0.076},
+    {"date": "2025-05-03", "revenue": 54830, "margin": 19191, "purchases": 704, "ctr": 0.263, "conversion_rate": 0.078},
+    {"date": "2025-05-04", "revenue": 52104, "margin": 18236, "purchases": 667, "ctr": 0.249, "conversion_rate": 0.071},
+    {"date": "2025-05-05", "revenue": 57190, "margin": 20016, "purchases": 742, "ctr": 0.268, "conversion_rate": 0.082},
+    {"date": "2025-05-06", "revenue": 59840, "margin": 20944, "purchases": 769, "ctr": 0.275, "conversion_rate": 0.084},
+    {"date": "2025-05-07", "revenue": 60420, "margin": 21147, "purchases": 781, "ctr": 0.278, "conversion_rate": 0.086},
+    {"date": "2025-05-08", "revenue": 62680, "margin": 21938, "purchases": 806, "ctr": 0.281, "conversion_rate": 0.087},
+    {"date": "2025-05-09", "revenue": 64515, "margin": 22580, "purchases": 829, "ctr": 0.287, "conversion_rate": 0.088},
+    {"date": "2025-05-10", "revenue": 67120, "margin": 23492, "purchases": 851, "ctr": 0.291, "conversion_rate": 0.091},
+    {"date": "2025-05-11", "revenue": 68942, "margin": 24130, "purchases": 879, "ctr": 0.296, "conversion_rate": 0.093},
+    {"date": "2025-05-12", "revenue": 71335, "margin": 24967, "purchases": 912, "ctr": 0.301, "conversion_rate": 0.096}
+  ],
+  "category_performance": [
+    {"product_category": "Electronics", "revenue": 873420, "purchases": 4210, "views": 30210, "conversion_rate": 0.139},
+    {"product_category": "Fashion", "revenue": 536140, "purchases": 8125, "views": 49102, "conversion_rate": 0.166},
+    {"product_category": "Grocery", "revenue": 417920, "purchases": 14880, "views": 88200, "conversion_rate": 0.169},
+    {"product_category": "Home", "revenue": 394100, "purchases": 3955, "views": 31402, "conversion_rate": 0.126},
+    {"product_category": "Sports", "revenue": 348230, "purchases": 4287, "views": 33708, "conversion_rate": 0.127},
+    {"product_category": "Beauty", "revenue": 277540, "purchases": 5810, "views": 36205, "conversion_rate": 0.160}
+  ],
+  "top_recommended_products": [
+    {"product_id": "P000144", "product_category": "Electronics", "brand": "VoltEdge", "retrieval_score": 0.941, "ranking_score": 0.382, "product_score": 0.721, "recommendation_reason": "Recommended because ranking features predict purchase intent", "category_match": true, "predicted_purchase_probability": 0.382},
+    {"product_id": "P000392", "product_category": "Electronics", "brand": "PixelForge", "retrieval_score": 0.918, "ranking_score": 0.361, "product_score": 0.695, "recommendation_reason": "Recommended because it matches the user's category affinity", "category_match": true, "predicted_purchase_probability": 0.361},
+    {"product_id": "P000087", "product_category": "Home", "brand": "LumaHome", "retrieval_score": 0.887, "ranking_score": 0.322, "product_score": 0.642, "recommendation_reason": "Recommended because the two-tower retrieval model found similar behavior", "category_match": false, "predicted_purchase_probability": 0.322},
+    {"product_id": "P000611", "product_category": "Sports", "brand": "StrideIQ", "retrieval_score": 0.856, "ranking_score": 0.305, "product_score": 0.617, "recommendation_reason": "Recommended because ranking features predict purchase intent", "category_match": false, "predicted_purchase_probability": 0.305},
+    {"product_id": "P000229", "product_category": "Fashion", "brand": "ModeLab", "retrieval_score": 0.842, "ranking_score": 0.296, "product_score": 0.598, "recommendation_reason": "Recommended because the two-tower retrieval model found similar behavior", "category_match": false, "predicted_purchase_probability": 0.296}
+  ],
+  "pricing_optimization_comparison": [
+    {"product_id": "P000144", "current_price": 319.99, "optimal_price": 342.39, "demand_probability": 0.184, "expected_margin": 25.81, "decision_rule": "increase price for low inventory and high demand", "competitor_price": 331.2, "competitor_price_delta": 11.19, "revenue_uplift_estimate": 0.091, "guardrail_flags": ["low_inventory_high_demand_margin_protection"]},
+    {"product_id": "P000392", "current_price": 229.5, "optimal_price": 214.55, "demand_probability": 0.238, "expected_margin": 20.47, "decision_rule": "balanced optimization", "competitor_price": 219.8, "competitor_price_delta": -5.25, "revenue_uplift_estimate": 0.064, "guardrail_flags": ["passed"]},
+    {"product_id": "P000087", "current_price": 86.2, "optimal_price": 78.44, "demand_probability": 0.291, "expected_margin": 9.83, "decision_rule": "increase discount for high inventory and low demand", "competitor_price": 82.4, "competitor_price_delta": -3.96, "revenue_uplift_estimate": 0.044, "guardrail_flags": ["high_inventory_low_demand_discount"]}
+  ],
+  "forecasted_demand": {
+    "product_id": "P000144",
+    "horizon_days": 30,
+    "forecast": [
+      {"date": "2025-06-01", "predicted_demand": 122.4},
+      {"date": "2025-06-02", "predicted_demand": 128.1},
+      {"date": "2025-06-03", "predicted_demand": 131.6},
+      {"date": "2025-06-04", "predicted_demand": 129.8},
+      {"date": "2025-06-05", "predicted_demand": 136.9},
+      {"date": "2025-06-06", "predicted_demand": 145.7},
+      {"date": "2025-06-07", "predicted_demand": 152.3}
+    ]
+  },
+  "category_forecasted_demand": {
+    "category": "Electronics",
+    "horizon_days": 30,
+    "forecast": [
+      {"date": "2025-06-01", "predicted_demand": 1840.2},
+      {"date": "2025-06-02", "predicted_demand": 1898.4},
+      {"date": "2025-06-03", "predicted_demand": 1912.7},
+      {"date": "2025-06-04", "predicted_demand": 1880.3},
+      {"date": "2025-06-05", "predicted_demand": 1962.1},
+      {"date": "2025-06-06", "predicted_demand": 2044.9},
+      {"date": "2025-06-07", "predicted_demand": 2115.5}
+    ]
+  },
+  "customer_segments": [
+    {"customer_segment": "growth customers", "users": 1840, "conversion_rate": 0.067, "aov": 61.3, "ltv_estimate": 148.7, "churn_risk": 0.312},
+    {"customer_segment": "frequent browsers", "users": 1265, "conversion_rate": 0.018, "aov": 34.2, "ltv_estimate": 42.5, "churn_risk": 0.474},
+    {"customer_segment": "discount-sensitive customers", "users": 884, "conversion_rate": 0.102, "aov": 56.8, "ltv_estimate": 211.4, "churn_risk": 0.286},
+    {"customer_segment": "high-value customers", "users": 612, "conversion_rate": 0.174, "aov": 143.9, "ltv_estimate": 832.6, "churn_risk": 0.184},
+    {"customer_segment": "likely-to-churn customers", "users": 399, "conversion_rate": 0.021, "aov": 44.7, "ltv_estimate": 72.2, "churn_risk": 0.681}
+  ],
+  "model_metrics": [
+    {"model": "two_stage_recommender", "retrieval_recall_at_100": 0.612, "precision_at_k": 0.218, "recall_at_k": 0.296, "ndcg_at_k": 0.411, "map_at_k": 0.184, "catalog_coverage": 0.672, "diversity": 0.48, "cold_start_performance": 0.132, "simulated_ctr_lift": 0.13},
+    {"model": "dynamic_pricing", "estimated_revenue_uplift": 0.124, "estimated_margin_improvement": 0.087, "estimated_conversion_improvement": 0.046},
+    {"model": "demand_forecaster", "mae": 4.83, "rmse": 7.12, "mape": 0.168, "wape": 0.143, "baseline_wape": 0.219}
+  ],
+  "feature_importance": [
+    {"feature": "num__competitor_price", "importance": 0.248},
+    {"feature": "num__historical_conversion_rate", "importance": 0.211},
+    {"feature": "num__inventory_level", "importance": 0.174},
+    {"feature": "num__demand_score", "importance": 0.157},
+    {"feature": "num__discount_percentage", "importance": 0.112}
+  ],
+  "monitoring": [
+    {"date": "2026-04-29", "model_name": "demand_forecaster", "prediction_volume": 3840, "clickstream_volume": 14520, "average_latency_ms": 46.3, "p95_latency_ms": 91.4, "drift_score": 0.19, "recommendation_drift": 0.0, "feature_drift": 0.21, "drift_status": "stable", "accuracy_trend": 0.842, "conversion_trend": 0.078, "data_quality_issues": 1, "pricing_guardrail_violations": 0, "feedback_clicks": 650, "feedback_purchases": 118, "feature_freshness_minutes": 18},
+    {"date": "2026-04-29", "model_name": "dynamic_pricing", "prediction_volume": 6120, "clickstream_volume": 20840, "average_latency_ms": 32.8, "p95_latency_ms": 67.2, "drift_score": 0.24, "recommendation_drift": 0.0, "feature_drift": 0.25, "drift_status": "stable", "accuracy_trend": 0.871, "conversion_trend": 0.081, "data_quality_issues": 2, "pricing_guardrail_violations": 3, "feedback_clicks": 1180, "feedback_purchases": 211, "feature_freshness_minutes": 11},
+    {"date": "2026-04-29", "model_name": "two_stage_recommender", "prediction_volume": 18320, "clickstream_volume": 68320, "average_latency_ms": 37.1, "p95_latency_ms": 79.4, "drift_score": 0.21, "recommendation_drift": 0.23, "feature_drift": 0.2, "drift_status": "stable", "accuracy_trend": 0.884, "conversion_trend": 0.086, "data_quality_issues": 1, "pricing_guardrail_violations": 0, "feedback_clicks": 4380, "feedback_purchases": 621, "feature_freshness_minutes": 9}
+  ],
+  "feature_store": [
+    {"name": "user_features", "version": "v1", "entity": "user_id", "row_count": 5000, "feature_count": 18, "freshness_timestamp": "2026-04-29T00:00:00Z", "offline_path": "data/feature_store/offline/v1/user_features.csv", "online_path": "data/feature_store/online/v1/user_features.json"},
+    {"name": "product_features", "version": "v1", "entity": "product_id", "row_count": 800, "feature_count": 24, "freshness_timestamp": "2026-04-29T00:00:00Z", "offline_path": "data/feature_store/offline/v1/product_features.csv", "online_path": "data/feature_store/online/v1/product_features.json"},
+    {"name": "pricing_features", "version": "v1", "entity": "product_id", "row_count": 120000, "feature_count": 14, "freshness_timestamp": "2026-04-29T00:00:00Z", "offline_path": "data/feature_store/offline/v1/pricing_features.csv", "online_path": "data/feature_store/online/v1/pricing_features.json"},
+    {"name": "inventory_features", "version": "v1", "entity": "product_id", "row_count": 800, "feature_count": 12, "freshness_timestamp": "2026-04-29T00:00:00Z", "offline_path": "data/feature_store/offline/v1/inventory_features.csv", "online_path": "data/feature_store/online/v1/inventory_features.json"}
+  ],
+  "data_quality": {
+    "raw_event_count": 120720,
+    "clean_event_count": 120000,
+    "duplicate_event_rate": 0.006,
+    "tracked_missing_value_rate": 0.01,
+    "records_removed": 720
+  },
+  "inventory_risk": [
+    {"stockout_risk_bucket": "low", "products": 584},
+    {"stockout_risk_bucket": "medium", "products": 182},
+    {"stockout_risk_bucket": "high", "products": 34}
+  ],
+  "demand_summary": [
+    {"category": "Electronics", "daily_sales": 51240, "promo_days": 7210},
+    {"category": "Fashion", "daily_sales": 47110, "promo_days": 6540},
+    {"category": "Grocery", "daily_sales": 43882, "promo_days": 5940},
+    {"category": "Home", "daily_sales": 29920, "promo_days": 4320},
+    {"category": "Sports", "daily_sales": 28110, "promo_days": 4012},
+    {"category": "Beauty", "daily_sales": 23980, "promo_days": 3501}
+  ]
+}

@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-runtime-config
+  namespace: personalization-pricing
+  labels:
+    app.kubernetes.io/part-of: real-time-personalization-pricing-platform
+data:
+  PYTHONPATH: /app/src
+  PIPELINE_SEED: "42"
+  N_USERS: "5000"
+  N_PRODUCTS: "800"
+  N_EVENTS: "120000"
+  TRAINING_WINDOW_DAYS: "180"
+  RECOMMENDATION_K: "10"
+  RETRIEVAL_BACKEND: sklearn
+  RANKING_BACKEND: sklearn
+  PRICING_BACKEND: sklearn
+  FORECASTING_BACKEND: sklearn
+  RETRIEVAL_EPOCHS: "4"
+  RETRIEVAL_BATCH_SIZE: "1024"
+  API_ARTIFACT_MODE: trained

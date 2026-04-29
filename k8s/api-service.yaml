@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pricing-intelligence-api
+  namespace: personalization-pricing
+  labels:
+    app.kubernetes.io/name: pricing-intelligence-api
+    app.kubernetes.io/part-of: real-time-personalization-pricing-platform
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: pricing-intelligence-api
+  ports:
+    - name: http
+      port: 8000
+      targetPort: http
