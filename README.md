@@ -342,15 +342,3 @@ kubectl apply -f k8s/jobs/pipeline-gpu-job.yaml
 ```
 
 See [docs/kubernetes.md](docs/kubernetes.md).
-
-## Recruiter Summary
-
-This project demonstrates production-style applied ML engineering for e-commerce: synthetic data generation, data quality, feature engineering, feature store simulation, two-stage recommendations, dynamic pricing, forecasting, segmentation, FastAPI serving, dashboards, monitoring, CI/CD, and business-facing documentation.
-
-## Limitations and Future Improvements
-
-- Add transformer text embeddings and richer session context to the two-tower model.
-- Replace local MLflow runs and JSON/CSV registry with a managed MLflow tracking server.
-- Add Kafka/Kinesis streaming ingestion.
-- Add Feast, Redis, and warehouse-backed online/offline feature serving.
-- Add A/B testing, fairness review, and pricing governance workflows.
