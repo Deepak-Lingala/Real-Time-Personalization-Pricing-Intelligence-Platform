@@ -52,9 +52,9 @@ class DemandForecaster:
         preprocessor = ColumnTransformer(
             transformers=[
                 ("num", StandardScaler(), numeric),
-                ("cat", OneHotEncoder(handle_unknown="ignore"), ["category"]),
+                ("cat", OneHotEncoder(handle_unknown="ignore", sparse_output=False), ["category"]),
             ]
-        )
+        ).set_output(transform="pandas")
         model, backend_used = self._select_model()
         self.pipeline = Pipeline([("preprocessor", preprocessor), ("model", model)])
         self.pipeline.fit(frame[self.FEATURES], frame["daily_sales"])
