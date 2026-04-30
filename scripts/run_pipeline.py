@@ -40,6 +40,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--retrieval-epochs", type=int, default=PipelineConfig.retrieval_epochs)
     parser.add_argument("--retrieval-batch-size", type=int, default=PipelineConfig.retrieval_batch_size)
+    parser.add_argument("--recommendation-k", type=int, default=PipelineConfig.recommendation_k)
     return parser.parse_args()
 
 
@@ -57,6 +58,7 @@ def main() -> None:
         forecasting_backend=args.forecasting_backend,
         retrieval_epochs=args.retrieval_epochs,
         retrieval_batch_size=args.retrieval_batch_size,
+        recommendation_k=args.recommendation_k,
     )
     summary = run_pipeline(config)
     print(

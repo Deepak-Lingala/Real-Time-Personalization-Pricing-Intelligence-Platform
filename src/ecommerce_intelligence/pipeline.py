@@ -222,6 +222,7 @@ def run_pipeline(config: PipelineConfig | None = None) -> dict[str, Any]:
         data_quality_summary=data_quality_summary,
         inventory_features=inventory_features,
         model_version="v1.0.0",
+        recommendation_k=config.recommendation_k,
     )
     (PROCESSED_DATA_DIR / "dashboard_summary.json").write_text(
         json.dumps(_json_ready(dashboard_summary), indent=2),
@@ -248,6 +249,7 @@ def build_dashboard_summary(
     data_quality_summary: dict[str, float],
     inventory_features: pd.DataFrame,
     model_version: str,
+    recommendation_k: int = 10,
 ) -> dict[str, Any]:
     events = events.copy()
     events["date"] = pd.to_datetime(events["timestamp"]).dt.date.astype(str)
@@ -342,6 +344,8 @@ def build_dashboard_summary(
             "recommendation_recall_at_k": recommender_metrics.get("recall_at_k", 0.0),
             "recommendation_precision_at_k": recommender_metrics.get("precision_at_k", 0.0),
             "recommendation_ndcg_at_k": recommender_metrics.get("ndcg_at_k", 0.0),
+            "retrieval_recall_at_100": recommender_metrics.get("retrieval_recall_at_100", 0.0),
+            "recommendation_k": recommendation_k,
             "forecast_wape": forecast_metrics.get("wape", 0.0),
             "inference_latency_ms": round(float(monitoring["average_latency_ms"].mean()), 2),
             "prediction_volume": int(monitoring["prediction_volume"].sum()),

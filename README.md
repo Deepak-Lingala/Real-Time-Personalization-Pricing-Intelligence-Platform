@@ -1,8 +1,45 @@
 # Real-Time Personalization & Pricing Intelligence Platform
 
+[![ci](https://github.com/Deepak-Lingala/Real-Time-Personalization-Pricing-Intelligence-Platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Deepak-Lingala/Real-Time-Personalization-Pricing-Intelligence-Platform/actions/workflows/ci.yml)
+
 Company-style, end-to-end e-commerce machine learning system built with **synthetic data only**. The project mirrors how an e-commerce ML platform can connect personalization, dynamic pricing, demand forecasting, customer analytics, model serving, monitoring, and business dashboards.
 
 > Portfolio disclaimer: all users, products, events, pricing signals, metrics, business impact numbers, and monitoring outputs are synthetic simulations. This project does not claim real company deployment.
+
+## What This Demonstrates
+
+This repository is built to show fluency across the full ML platform stack that real e-commerce teams operate:
+
+- **Two-stage recommendation system** — PyTorch two-tower retrieval plus learning-to-rank reranker, with sklearn fallbacks for portable runs.
+- **Constrained dynamic pricing** — XGBoost demand model wrapped in margin, inventory, and competitor guardrails.
+- **Hierarchical demand forecasting** — LightGBM regression with seasonal-naive baseline, evaluated by WAPE and MAPE.
+- **Feature store** — Feast-style offline/online stores with freshness tracking and versioned schemas.
+- **Real-time and batch serving** — FastAPI inference layer plus pre-computed batch artifacts, mirroring the layered serving pattern used at Amazon and Netflix.
+- **MLOps loop** — MLflow-compatible registry, drift monitoring, latency tracking, automated retrain triggers.
+- **Production deployment** — Docker, Kubernetes manifests with health probes and HPA, GPU job spec for training.
+- **CI/CD** — GitHub Actions running ruff, pytest, and an API import smoke test on every push.
+
+Sample run on a Colab T4 produced the headline KPIs listed in [reports/](reports/) (recommender Recall@K, forecast WAPE, pricing uplift, drift status, latency).
+
+## Live Demo
+
+If deployed, you can interact with the system without installing anything:
+
+- **Dashboard** — `https://<your-streamlit-cloud-url>` (Executive Overview, Recommendations, Pricing, Forecasting, MLOps Monitoring)
+- **API** — `https://<your-render-url>/docs` (interactive Swagger UI, all endpoints)
+
+See [Deployment](#deployment) for setup.
+
+## Screenshots
+
+Replace these with actual screenshots after running the dashboard locally (`streamlit run app/dashboard.py`):
+
+| Page | Preview |
+|---|---|
+| Executive Overview | `![executive](docs/screenshots/executive.png)` |
+| Recommendation Engine | `![recs](docs/screenshots/recs.png)` |
+| Dynamic Pricing | `![pricing](docs/screenshots/pricing.png)` |
+| MLOps Monitoring | `![mlops](docs/screenshots/mlops.png)` |
 
 ## Business Problem
 
@@ -282,21 +319,33 @@ streamlit run app/dashboard.py
 Use the PyTorch backend explicitly in Colab. It will train the two-tower retrieval model on CUDA when a GPU runtime is enabled:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/real-time-personalization-pricing-platform.git
-cd real-time-personalization-pricing-platform
+git clone https://github.com/Deepak-Lingala/Real-Time-Personalization-Pricing-Intelligence-Platform.git
+cd Real-Time-Personalization-Pricing-Intelligence-Platform
 pip install -r requirements-colab-gpu.txt
-python scripts/run_pipeline.py \
-  --users 5000 \
-  --products 800 \
-  --events 120000 \
-  --days 180 \
-  --retrieval-backend torch \
-  --ranking-backend xgboost \
-  --pricing-backend xgboost \
-  --forecasting-backend lightgbm \
-  --retrieval-epochs 5 \
-  --retrieval-batch-size 2048
 ```
+
+**Quick run** (~5 min on T4, lighter metrics):
+
+```bash
+python -W ignore scripts/run_pipeline.py \
+  --users 5000 --products 800 --events 120000 --days 180 \
+  --retrieval-backend torch --ranking-backend xgboost \
+  --pricing-backend xgboost --forecasting-backend lightgbm \
+  --retrieval-epochs 5 --retrieval-batch-size 2048
+```
+
+**Stronger run** (~30 min on T4, better recall@k and forecast WAPE — recommended for portfolio screenshots):
+
+```bash
+python -W ignore scripts/run_pipeline.py \
+  --users 8000 --products 1200 --events 250000 --days 365 \
+  --retrieval-backend torch --ranking-backend xgboost \
+  --pricing-backend xgboost --forecasting-backend lightgbm \
+  --retrieval-epochs 30 --retrieval-batch-size 4096 \
+  --recommendation-k 50
+```
+
+`--recommendation-k 50` evaluates Recall/Precision/NDCG at K=50, which is what large-scale recommenders (Spotify, YouTube) actually report. The KPI output also includes `retrieval_recall_at_100` — the standard candidate-generation metric. Longer history and higher epoch count materially improve forecast WAPE and recall.
 
 Check the backend after training:
 
@@ -316,6 +365,42 @@ Services:
 
 - API: `http://localhost:8000`
 - Dashboard: `http://localhost:8501`
+
+## Deployment
+
+Deploy the API and dashboard to free-tier hosting so recruiters can click a link instead of running code locally.
+
+### FastAPI on Render (free tier)
+
+1. Push this repo to GitHub.
+2. Sign in at [render.com](https://render.com) with GitHub.
+3. Click **New → Blueprint**, select this repository.
+4. Render auto-detects [render.yaml](render.yaml) and provisions a web service.
+5. First build runs the lightweight pipeline to populate `data/processed/`, then starts uvicorn.
+6. After ~5 min, you'll get a URL like `https://pricing-intelligence-api.onrender.com` — append `/docs` for Swagger UI.
+
+Notes:
+- Free tier sleeps after 15 min idle and cold-starts in ~30 s.
+- The build command runs the `sklearn` backend pipeline — no GPU needed on Render.
+
+### Dashboard on Streamlit Community Cloud (free)
+
+1. Push this repo to GitHub.
+2. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
+3. Click **New app**, point at this repo, set:
+   - **Branch:** `main`
+   - **Main file path:** `app/dashboard.py`
+   - **Python version:** 3.11
+4. Deploy. Streamlit installs `requirements.txt` automatically and reads [.streamlit/config.toml](.streamlit/config.toml) for theme.
+5. The dashboard loads `data/sample/dashboard_snapshot.json` (committed in the repo), so it works without running the pipeline.
+
+### Wiring the dashboard to the live API (optional)
+
+Once both are live, set the API URL as a secret on Streamlit Cloud (`Settings → Secrets`) so the dashboard can call live endpoints:
+
+```toml
+API_BASE_URL = "https://pricing-intelligence-api.onrender.com"
+```
 
 ## Kubernetes
 
