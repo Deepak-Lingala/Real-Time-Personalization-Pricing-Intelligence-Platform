@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: pricing-intelligence-api
+    runtime: python
+    plan: free
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+      python scripts/run_pipeline.py --users 500 --products 120 --events 8000 --days 60 --retrieval-backend sklearn --ranking-backend sklearn --pricing-backend sklearn --forecasting-backend sklearn
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: PYTHONPATH
+        value: "."
