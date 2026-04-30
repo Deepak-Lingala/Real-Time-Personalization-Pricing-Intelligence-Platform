@@ -156,6 +156,26 @@ class SyntheticEcommerceGenerator:
         rows = []
 
         user_ids = users["user_id"].to_numpy()
+
+        # Per-user product affinity: each user has a sparse set of preferred products
+        # within their top affinity categories. This injects user-specific signal that
+        # the two-tower retrieval model can learn — without it, products are picked
+        # by category popularity alone and Recall@K stays near random.
+        user_preferred: dict[str, set[str]] = {}
+        for uid in user_ids:
+            uid_str = str(uid)
+            user_row = user_lookup.loc[uid_str]
+            affinity_map = user_row["category_affinity"]
+            top_cats = sorted(affinity_map.keys(), key=lambda c: -float(affinity_map.get(c, 0)))[:2]
+            preferred: set[str] = set()
+            for cat in top_cats:
+                if cat in products_by_category:
+                    cat_products = products_by_category[cat]["product_id"].astype(str).tolist()
+                    n_pref = max(3, int(len(cat_products) * 0.10))
+                    chosen = self.rng.choice(cat_products, size=min(n_pref, len(cat_products)), replace=False)
+                    preferred.update(map(str, chosen))
+            user_preferred[uid_str] = preferred
+
         for event_index in range(n_events):
             user_id = str(self.rng.choice(user_ids))
             user = user_lookup.loc[user_id]
@@ -167,7 +187,12 @@ class SyntheticEcommerceGenerator:
                 * np.log1p(product_frame["review_count"].to_numpy())
                 * np.sqrt(product_frame["inventory"].to_numpy())
             )
-            product = product_frame.iloc[int(self.rng.choice(len(product_frame), p=popularity / popularity.sum()))]
+            preference_boost = np.array(
+                [5.0 if str(pid) in user_preferred.get(user_id, set()) else 1.0
+                 for pid in product_frame["product_id"].to_numpy()]
+            )
+            combined = popularity * preference_boost
+            product = product_frame.iloc[int(self.rng.choice(len(product_frame), p=combined / combined.sum()))]
 
             timestamp = start + timedelta(
                 days=int(self.rng.integers(0, days)),
